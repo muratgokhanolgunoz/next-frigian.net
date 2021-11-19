@@ -1,0 +1,69 @@
+.video {
+    color: #fff;
+    text-align: center;
+    padding: 6rem;
+    span {
+        border: 2px solid #fff;
+        border-radius: 50%;
+        width: 7em;
+        height: 7em;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+        position: relative;
+        transform: scale(1);
+        -webkit-transition: 0.3s all ease-in-out;
+        -o-transition: 0.3s all ease-in-out;
+        transition: 0.3s all ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+            -webkit-transition: 0.3s all ease-in-out;
+            -o-transition: 0.3s all ease-in-out;
+            transition: 0.3s all ease-in-out;
+        }
+    }
+    .videoIcon {
+        color: #fff;
+        cursor: pointer;
+        font-size: 5em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-40%, -50%);
+        -ms-transform: translate(-40%, -50%);
+        transform: translate(-40%, -50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        padding: 4rem;
+    }
+}
+
+.videoInner {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+
+#videoIframeClose {
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: -40px;
+}
+
+#videoIframe {
+    width: 100% !important;
+    height: 600px;
+}
+
+@media screen and (max-width: 992px) {
+    #videoIframe {
+        width: 100% !important;
+        height: 400px;
+    }
+}

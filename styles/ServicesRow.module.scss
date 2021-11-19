@@ -1,0 +1,31 @@
+.servicesItem,
+.servicesItemTitle {
+    margin: 20px 0;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(232, 232, 232, 1);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(232, 232, 232, 1);
+    box-shadow: 0px 0px 8px 1px rgba(232, 232, 232, 1);
+    padding: 15px 10px 10px 15px;
+}
+.servicesItemTitle {
+    background-color: var(--color-9);
+    color: var(--color-3);
+}
+
+.servicesRow {
+    font-size: 1.5em;
+    margin-top: 15px !important;
+
+    .servicesIcon {
+        padding-right: 15px;
+        font-size: 2.1em;
+        color: var(--color-9);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .servicesRow {
+        h4 {
+            margin-top: 50px;
+        }
+    }
+}

@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+.prettierrc.json
+.gitignore
 
 # testing
 /coverage
@@ -32,3 +34,4 @@ yarn-error.log*
 
 # vercel
 .vercel
+

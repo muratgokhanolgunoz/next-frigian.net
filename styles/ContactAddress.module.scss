@@ -1,0 +1,29 @@
+@mixin textFontSize {
+    font-size: 1.4em;
+}
+.contactAddress {
+    background-color: #fff;
+    padding: 40px;
+    .contactAddressRow {
+        margin: 20px;
+        iframe {
+            width: 100% !important;
+            min-height: 200px;
+        }
+        a {
+            @include textFontSize();
+            text-decoration: none;
+            color: var(--color-1);
+            font-weight: 600;
+        }
+        p {
+            @include textFontSize();
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #contactAddress {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+.banner {
+    height: 600px;
+    position: relative;
+}
+
+.bannerText {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    top: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    color: #fff;
+    h1 {
+        font-family: var(--font-family-2);
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 4.5em;
+    }
+    p {
+        font-weight: 400;
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bannerText {
+        h1 {
+            font-size: 4em;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bannerText {
+        h1 {
+            font-size: 2.5em;
+        }
+    }
+
+    .bannerText {
+        p {
+            font-weight: 400;
+            font-size: 1.5em;
+        }
+    }
+}

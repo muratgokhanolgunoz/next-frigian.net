@@ -1,0 +1,488 @@
+{
+    "template": {
+        "HTML_PAGE_TITLE": "Frigian Bilişim Ve Teknoloji Hizmetleri"
+    },
+    "template_message": {
+        "error": {
+            "NOT_FOUND": "Aradığınız Sayfa Bulunamadı",
+            "BLOG_SERVER_ERROR": "Sunucu kaynaklı bir sorundan dolayı yazılar listelenemedi"
+        },
+        "warning": {
+            "BLOG_NOT_FOUND": "Seçtiğiniz dil seçimine uygun yazı bulunamadı"
+        },
+        "info": {
+            "WAIT_RESPONSE": "Sunucudan yanıt bekleniyor..."
+        }
+    },
+    "buttons": {
+        "NEXT": "İlerİ",
+        "PREVIOUS": "Gerİ",
+        "SAVE": "Kaydet",
+        "CHECK_PACKAGES": "Paketlere Bak",
+        "SEND_REQUEST": "İstek Gönder",
+        "SEND_MESSAGE": "Mesajı Gönder",
+        "READ_MORE": "Devamı . . ."
+    },
+    "navbar": {
+        "NAVBAR_ITEM_HOME": "Anasayfa",
+        "NAVBAR_ITEM_ABOUT": "Hakkımızda",
+        "NAVBAR_ITEM_SERVICES": "Servislerimiz",
+        "NAVBAR_ITEM_PRICING": "Fiyatlar",
+        "NAVBAR_ITEM_FAQ": "SSS",
+        "NAVBAR_ITEM_CONTACT": "İletişim",
+        "NAVBAR_ITEM_BLOG": "Blog",
+        "NAVBAR_ITEM_MEETING_ROOM": "Toplantı Odası",
+        "language": {
+            "NAVBAR_ITEM_LANGUAGE_TR": "TÜRKÇE",
+            "NAVBAR_ITEM_LANGUAGE_EN": "İNGİLİZCE"
+        }
+    },
+    "home": {
+        "banner": {
+            "BANNER_HEADER": "Dijital Taşıyıcı Platformu",
+            "BANNER_CONTENT": "Yeni Nesil Taşımacılık Yönetim Sistemi ve Entegre Navlun Pazarı"
+        },
+        "widgets": {
+            "left": {
+                "WIDGET_LEFT_TITLE": "En İyİ Fİyat",
+                "WIDGET_LEFT_CONTENT": "Doğru paket seçimi ile daha az ödeyin. Üstelik kurulum ücreti de yok"
+            },
+            "center": {
+                "WIDGET_CENTER_TITLE": "Demo Talebİ",
+                "form": {
+                    "WIDGET_CENTER_FORM_NAME": "Ad Soyad",
+                    "WIDGET_CENTER_FORM_PHONE": "Telefon",
+                    "WIDGET_CENTER_FORM_EMAIL": "ePosta"
+                }
+            },
+            "right": {
+                "WIDGET_RIGHT_TITLE": "7 / 24 Destek",
+                "WIDGET_RIGHT_CONTENT": "Destek taleplerinizi 7/24 tarafımıza iletebilirsiniz. Geri bildirimlerinizi hizmet kalitemizi yükseltmek için önemsiyoruz"
+            },
+            "notification": {
+                "HOME_WIDGETS_NOTIFICATION_SUCCESS_MESSAGE": "Mesajınız başarıyla gönderildi",
+                "HOME_WIDGETS_NOTIFICATION_ERROR_MESSAGE": "Mesajınız gönderilemedi. Lütfen tekrar deneyin",
+                "form_validation": {
+                    "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_NAME": "Ad Soyad boş bırakılamaz",
+                    "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL": "ePosta boş bırakılamaz",
+                    "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL_FORMAT": "ePosta doğru formatta girilmelidir",
+                    "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_PHONE": "Telefon boş bırakılamaz"
+                }
+            }
+        },
+        "why": {
+            "WHY_SECTION_TITLE": "Neden Frİgİan ?",
+            "WHY_SECTION_SUBTITLE": "Frigian ile sahip olacağınız ayrıcalıklar",
+            "items": {
+                "1": {
+                    "WHY_ITEMS_TITLE": "Hızlı Operasyon",
+                    "WHY_ITEMS_CONTENT": "Fiyat listelerinden basit ve hızlı teklif gönderme, belge ekleme ve otomatik mesajlar"
+                },
+                "2": {
+                    "WHY_ITEMS_TITLE": "Hata Önleme",
+                    "WHY_ITEMS_CONTENT": "Deneyimsiz personel hatalarında ikaz veren akıllı uyarılar"
+                },
+                "3": {
+                    "WHY_ITEMS_TITLE": "Entegrasyon",
+                    "WHY_ITEMS_CONTENT": "Global taşıma sistemi ile bilgi değişimi ve güncellemeler"
+                },
+                "4": {
+                    "WHY_ITEMS_TITLE": "Kağıtsız",
+                    "WHY_ITEMS_CONTENT": "Herbir dosyanın sistem mesajlarını ve belgelerini saklamak ve de kolayca erişilebilir yapmak"
+                },
+                "5": {
+                    "WHY_ITEMS_TITLE": "Bütüncül Çözüm",
+                    "WHY_ITEMS_CONTENT": "Teklif, operasyon, dökümantasyon, finans, ön muhasebe, rapor, analiz ve belgeler tek yerde"
+                },
+                "6": {
+                    "WHY_ITEMS_TITLE": "e-Rezervasyon ve e-Takip",
+                    "WHY_ITEMS_CONTENT": "Yayınlanmış navlunlardan online rezervasyon alın, sitenize e-Takip ekleyin"
+                },
+                "7": {
+                    "WHY_ITEMS_TITLE": "Bulut Arşiv",
+                    "WHY_ITEMS_CONTENT": "10 Yıl boyunca her bir dosya için üretilmiş ve yüklenmiş belgelere ulaşın"
+                },
+                "8": {
+                    "WHY_ITEMS_TITLE": "Kolayca Öğrenilir",
+                    "WHY_ITEMS_CONTENT": "Frigian, Youtube kanalındaki videoları ile kolayca öğrenilir"
+                },
+                "9": {
+                    "WHY_ITEMS_TITLE": "7/24 Destek",
+                    "WHY_ITEMS_CONTENT": "Destek ekibimiz sorunlarınıza en kısa sürede cevap vermek için hep hazır durumdadır"
+                }
+            }
+        },
+        "video": {
+            "VIDEO_TEXT": "Frigian özelliklerine göz atmak için videomuzu izleyin"
+        }
+    },
+    "about": {
+        "banner": {
+            "ABOUT_BANNER_TITLE": "Frigian Hakkında"
+        },
+        "history": {
+            "HISTORY_TITLE": "Tarİhçemİz",
+            "HISTORY_PARAGRAPH_1": "Frigian projesinin temelleri 2015 yılında Freight Forwarding sektörü ihtiyaçlarını karşılamak amacıyla bir ön muhasebe uygulaması yazma kararı ile başladı. 2017 Yılında ise online fiyatlandırmada ki açığı kapatmak için pazaryeri uygulaması oluşturuldu. Lakin pazaryeri uygulamasının aktif bir şekilde çalışabilmesi için entegre bir taşımacılık yönetim sistemi eksikliği fark edildi ve Frigian bugünkü haline evrildi. Artık bir navlun pazarı ile %100 entegre platforma dönüşmüştü. 2018 Eylül’ de gerçek zamanlı testler başladı. 2018 Aralık' da şirketleşme kararı alındı ve Frigian Bilişim ve Teknoloji Hizmetleri A.Ş kuruldu. 2019 Ocak ayında üç Freight Forwarder firması ile platform testleri başladı. 2019 Temmuz ayında İstanbul Teknopark projemizi \"Teknopark Projesi\" olarak onayladı ve ofisimizi teknopark bünyesine taşıdık. 2020 yılında ticari olarak müşteri kabul etmeye başladık. 2021 yılı Haziran itibarı ile  30 firmadan 213 aktif kullanıcı sayısına ulaştık. Kara, Hava, Deniz ve Tren taşıma modlarında, ithalat ihracat, komple, parsiyel ve konsolidasyonu içeren bir TMS olarak bütün Freight Forwarding sektörüne hizmet verir hale geldik. Covid ile başlayan dijitalleşme arayışında geçmiş tecrübelerimiz bize çok fayda sağladı. Gelinen noktada dinamik hale gelen fiyatlandırma algoritmaları daha fazla dijitalleşmenin kaçınılmaz olduğunu göstermektedir. 2021 itibarı ile navlun pazarı uygulamamızı beta seviyesine çektik. Frigian 68 freight forwarder firma sayısına ulaşınca navlun pazaryeri aktif hale gelecek ve bu firmalarımız daha avantajlı olacaklar. Biz aktif bir navlun yönetim sistemi için dünya üzerindeki 17 coğrafi bölgeyi 68 freight forwarder firması ile yönetebileceğimizi hesapladık. Frigian’ a erken katılan bu firmalar tabiki öncelikli olacaklar ama bu avantajı sonsuza kadar saklamak mümkün olmayacak. Dinamik bir navlun yönetim sistemi için rekabet edebilir ve güncel olmak bu listede kalmanın anahtarı olacak. ",
+            "HISTORY_PARAGRAPH_2": "Her bir freight forwarder üyemiz online fiyatlandırma, online booking ve gerçek zamanlı yük takibi uzantılarını 10 dakikalık bir işlem ile sitelerinde kullanabilmekteler. Frigian takımı, lojistik ve bilişim teknolojilerinde uzman bir ekip tarafından tasarlanıp geliştirilmektedir. Servislerimiz gerçek testlerden geçtikten sonra sisteme eklenmektedir. Platform her servis sağlayıcıdan gelen geri bildirim ve taleplerle gelişimine devam etmektedir.",
+            "HISTORY_SIGNATURE": "Frigian Takımı"
+        },
+        "how_to_join": {
+            "HOW_TO_JOIN_TITLE": "Nasıl Katılırım",
+            "items": {
+                "1": {
+                    "HOW_TO_JOIN_ITEM_ID": 1,
+                    "HOW_TO_JOIN_ITEM_TITLE": "Paket Seçin",
+                    "HOW_TO_JOIN_ITEM_CONTENT": "Şirketinizde çalışan ve Frigian platformunu kullanmasını planladığınız personel sayısını belirleyin, uygun paketi seçin ve KAYDET butonunu tıklayın"
+                },
+                "2": {
+                    "HOW_TO_JOIN_ITEM_ID": 2,
+                    "HOW_TO_JOIN_ITEM_TITLE": "Firma bilgilerinizi doldurun",
+                    "HOW_TO_JOIN_ITEM_CONTENT": "Şirket bilgilerini doğru bir şekilde doldurun"
+                },
+                "3": {
+                    "HOW_TO_JOIN_ITEM_ID": 3,
+                    "HOW_TO_JOIN_ITEM_TITLE": "Ödeme Yapın",
+                    "HOW_TO_JOIN_ITEM_CONTENT": "Üyelik işlemlerinin bitmesi için ödeme gereklidir. 30 gün içerisinde vazgeçme hakkınız vardır ve ödeme iade edilir. Yıllık ödeme yaparsanız %10 indirim uygulanır."
+                }
+            }
+        },
+        "team": {
+            "TEAM_TITLE": "Bİz Kİmİz",
+            "items": {
+                "1": {
+                    "TEAM_ITEMS_RANK": "Kurucu Ortak, Ceo",
+                    "TEAM_ITEMS_DESCRIPTION": "Uluslararası lojistik alanında 22 yıldan fazla deneyime sahip lojistik koordinatörü ve takım yöneticisi. Endüstri 4.0 ve lojistikte entegrasyon Seyfi için öncelikli konulardır."
+                },
+                "2": {
+                    "TEAM_ITEMS_RANK": "Kurucu Ortak, Cto",
+                    "TEAM_ITEMS_DESCRIPTION": "Bilişim teknolojilerinde 25 yıldan fazla deneyime sahip yazılım tasarımcısı, geliştirici ve takım yöneticisi. En iyi veri modelleme, performans ayarlama ve entegrasyon Turaj için yüksek öncelikli konulardır."
+                }
+            }
+        }
+    },
+    "services": {
+        "banner": {
+            "SERVICES_BANNER_TITLE": "Servislerimiz"
+        },
+        "titles": {
+            "SERVICES_COLUMNS_LEFT_TITLE": "Bulut Modüllerimiz",
+            "SERVICES_COLUMNS_RIGHT_TITLE": "Bulut Servislerimiz"
+        },
+        "columns": {
+            "left": [
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Gösterge Paneli",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Anlık verilerin sade görünümü"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Nakit Varlıklar",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Banka ve kasa işlemleri"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Fiyat Listesi",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Fiyat listesinden hızlı teklif üretmek"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Teklif",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Hızlıca teklif ve basitçe göndermek"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Dahili Taşıma",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Dahili taşıma süreçlerini yönetmek"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Operasyon",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Lojistik aktiviteleri yönetmek"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Konsol",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Akıllı konsol yönetimi"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Ön Muhasebe",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Ön muhasebe süreçlerini yönetmek"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Kalite Kontrol",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Arşive gitmeden önceki son kontrol yeri"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Arşiv",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Dosyaların 10 yıl boyunca saklandığı yer"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Mesajlaşma",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Personel arası ve müşterilere mesaj"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Ekler",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Dosya ilişiği belgeler"
+                }
+            ],
+            "right": [
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Veritabanı",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Verileri bölümlendirilmiş alanlarda yedekleme"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Depolama",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Dökümanları bölümlendirilmiş alanlarda saklama"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Günlük Yedekleme",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Günlük veri ve belgeleri yedekleme"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Arşiv",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Bilgileri 10 yıl süre ile saklama"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "İndirme",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Düzenli aralıklarla verileri ve belgeleri indirme imkanı"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Online Alan Genişletme",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Online alan ihtiyacınızı geliştirmek"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Paket Değiştirme",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Paketinizi yukarı yada aşağı paketle değiştirmek"
+                },
+                {
+                    "SERVICES_COLUMNS_ITEMS_TITLE": "Kullandığın Kadar Öde",
+                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Ne kadar kullanırsan o kadar ödersin"
+                }
+            ]
+        }
+    },
+    "pricing": {
+        "banner": {
+            "TITLE": "Fiyatlandırma"
+        },
+        "title": {
+            "TITLE": "Frİgİan Paketlerİ",
+            "SUBTITLE_1": "Şirketinize uygun paketi belirleyin",
+            "SUBTITLE_2": "Yıllık ödeme seçiminizde ilk ay bizden"
+        },
+        "items": {
+            "BEST_PRICE": "En İyi Fiyat",
+            "features": {
+                "SALES": "Satış",
+                "OPERATION": "Operasyon",
+                "DOCUMENTATION": "Dökümantasyon",
+                "QUALITY_CONTROL": "Kalite Kontrol",
+                "ARCHIVE": "Arşiv",
+                "ACCOUNTING": "Ön Muhasebe",
+                "INVOICE": "e-Fatura",
+                "CONSOLE": "Konsol"
+            },
+            "startup": {
+                "TITLE": "Yeni Başlayan",
+                "SUBTITLE": "Kullanıcı/Ay",
+                "BUTTON": "Hemen Başla",
+                "FOOTER_ROW_1": "kullanıcı paketi aylık",
+                "FOOTER_ROW_2": "Depolama",
+                "FOOTER_ROW_3": "Pazaryerinde rota"
+            },
+            "business": {
+                "TITLE": "Kobi",
+                "SUBTITLE": "Kullanıcı/Ay",
+                "BUTTON": "Hemen Başla",
+                "FOOTER_ROW_1": "Maksimum kullanıcı",
+                "FOOTER_ROW_2": "Depolama",
+                "FOOTER_ROW_3": "Pazaryerinde rota"
+            },
+            "premium": {
+                "TITLE": "Büyük Şirket",
+                "SUBTITLE": "Bizi Arayın",
+                "BUTTON": "Hemen Ara",
+                "FOOTER_ROW_1": "Maksimum kullanıcı",
+                "FOOTER_ROW_2": "Depolama",
+                "FOOTER_ROW_3": "Pazaryerinde rota"
+            }
+        }
+    },
+    "register": {
+        "banner": {
+            "TITLE": "Üyelik"
+        },
+        "companyForm": {
+            "COUNTRY": "Ülke",
+            "TAX_NO": "Vergi Numarası",
+            "COMPANY_NAME": "Firma Adı",
+            "PHONE": "Telefon",
+            "WEBSITE": "Web Adresi",
+            "ADDRESS": "Adres"
+        },
+        "pricingForm": {
+            "SUBDOMAIN": "Alan Adı",
+            "SUBDOMAIN_CHECK": "Alan Adı Kontrolü",
+            "NUMBER_OF_USERS": "Kullanıcı",
+            "NAME": "Ad",
+            "SURNAME": "Soyad",
+            "MOBILE_PHONE": "Telefon",
+            "EMAIL": "ePosta",
+            "ADMIN_EMAIL": "Admin ePosta",
+            "SENDER_EMAIL": "Gönderici ePosta",
+            "PACKAGE": "Seçilen Paket",
+            "AMOUNT": "Tutar",
+            "YEARLY_PAYMENT": "Yıllık Ödeme",
+            "MONTHLY_PAYMENT": "Aylık Ödeme",
+            "CAMPAIGN_CODE": "Kampanya Kodu",
+            "CAMPAIGN_ERROR": "GEÇERSİZ KOD",
+            "CAMPAIGN_DISCOUNT": "İndirim",
+            "CAMPAIGN_TAX_ABBREVIATION": "KDV",
+            "COMPANY_LOGO": "Firma Logosu",
+            "COMPANY_LOGO_UPLOAD": "Kırp",
+            "COMPANY_LOGO_CLOSE": "Kapat",
+            "COMPANY_LOGO_CONFIRMATION": "Firma logonuzu aşağıdaki şekliyle onaylıyor musunuz ?",
+            "COMPANY_DOC": "Vergi Levhası",
+            "AGGREMENT_TEXT": "Frigian Lisans Anlaşmasını kabul ediyorum."
+        },
+        "notification": {
+            "FORM_VALIDATION": "* ile işaretlenmiş alanlar boş bırakılamaz",
+            "PERSONAL_EMAIL": "Kişisel ePosta adresi doğru formatta olmalıdır",
+            "ADMIN_EMAIL": "Admin ePosta adresi doğru formatta olmalıdır",
+            "SENDER_EMAIL": "Gönderici ePosta adresi doğru formatta olmalıdır",
+            "FORM_VALIDATION_AGGREMENT": "Lütfen Frigian Lisans Anlaşmasını onaylayın",
+            "FORM_VALIDATION_PACKAGE": "Lütfen seçtiğiniz paket için yıllık / aylık ödeme seçimi yapın",
+            "FORM_VALIDATION_COMPANY_LOGO": "Lütfen firma logonuzu yükleyin",
+            "LOGO_UPLOAD_SUCCESS_MESSAGE": "Logo başarıyla yüklendi",
+            "LOGO_UPLOAD_ERROR_MESSAGE": "Logo yüklenirken br hata oluştu. Lütfen tekrar deneyin",
+            "LOGO_UPLOAD_FILE_SIZE_ERROR": "Logo için dosya boyutu max. 1MB olmalıdır.",
+            "DOCUMENT_UPLOAD_SUCCESS_MESSAGE": "Belge başarıyla yüklendi",
+            "DOCUMENT_UPLOAD_ERROR_MESSAGE": "Belge yüklenirken bir hata oluştu. Lütfen tekrar deneyin",
+            "DOCUMENT_UPLOAD_FILE_SIZE_ERROR": "Belge için dosya boyutu max. 5MB olmalıdır",
+            "DEFINE_SUBDOMAIN": "Öncelikle alan adı adı girişi yapmalısınız",
+            "REGISTRATION_SUCCESS": "Kayıt başarıyla tamamlandı",
+            "REGISTRATION_ERROR": "Kayıt yapılırken bir sorun oluştu. Lütfen tekrar deneyin"
+        }
+    },
+    "faq": {
+        "banner": {
+            "FAQ_BANNER_TITLE": "Sıkça Sorulan Sorular"
+        },
+        "items": [
+            {
+                "FAQ_ITEMS_TITLE": "Frigian nedir ?",
+                "FAQ_ITEMS_CONTENT": "Kobi ölçeğindeki lojistik firmaları için, “Taşımacılık Yönetim Sistemi” ve entegre navun pazarı uygulamasıdır."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Kimler alabilir ?",
+                "FAQ_ITEMS_CONTENT": "Deniz, Hava ve Karayolu taşımacılığında forwarding hizmeti veren bütün firmalar alabilir."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Ön Muhasebe var mı ?",
+                "FAQ_ITEMS_CONTENT": "Evet, ön muhasebe uygulamalarını takip edebileceğiniz bütün araçlar var. Örneğin, cari kasa, çek, e-Fatura, masraf merkezi, tahsiller ve bankalar gibi. Fakat bordro, mizan, beyanname gibi araçlar yok."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Eski bilgilerimi yükleyebilir miyim ?",
+                "FAQ_ITEMS_CONTENT": "Evet, CSV, Excel veya SQL olarak elinizde veri var ise bir seferliğine sizin adınıza yükleyebiliriz. Bu veriler, firma kartları, ürün kartları veya alıs-satış faturalarınız gibi veriler olabilir."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Verilerim kaybolur mu ?",
+                "FAQ_ITEMS_CONTENT": "Hayır, verileriniz günlük olarak belge, sql ve imaj olarak farklı ve korunaklı mecralarda yedeklenmektedir. Felaket anında son gün verileri garanti edilmemektedir."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Verilerim başkaları tarafından görülebilir mi ?",
+                "FAQ_ITEMS_CONTENT": "Hayır, sizin yetki verdiğiniz personel dışında hiç kimse verilerinize erişemez."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Verilerime her yerden ulaşabilir miyim ?",
+                "FAQ_ITEMS_CONTENT": "Evet, IP ve/veya IMEI sınırlaması yapmadığınız sürece verilerinize internetin olduğu her yerde ulaşabilirisiniz."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Mobil uygulama ile teklif verebilir miyim ?",
+                "FAQ_ITEMS_CONTENT": "Evet, mobil uygulama ile teklif verebilir ve onaylanan teklif için bildirim alabilirsiniz."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Personel yetkilendirmesi var mı ?",
+                "FAQ_ITEMS_CONTENT": "Evet, personelinize rütbe ve yetki verebilirsiniz. Örnek olarak, admin her şeyi görebilir. Satış departmanı yöneticisi oluşturulan teklifleri görebilir ama satışçı sadece kendi tekliflerini görür. Muhasebe departmanı satış aktivitelerini göremediği gibi satış departmanı da muhasebe aktivitelerini göremez."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Nasıl bir rapor alabiliriz ?",
+                "FAQ_ITEMS_CONTENT": "Müşteri ve personel bazında, karlılık, TEU, hacim ve dosya sayısı raporlarını dilediğiniz tarih aralığında görebilirsiniz."
+            },
+            {
+                "FAQ_ITEMS_TITLE": "Fiyat Listesi var mı ?",
+                "FAQ_ITEMS_CONTENT": "Evet, FCL/LCL navlun ve ön taşıma fiyatlarını ekleyebilirsiniz. Yetki verdiğiniz personel bu navlunları görebilir ve bu navlunları kullanarak hızlı teklif gönderebilir. Ayrıca excel listesi ile navlunlarınızı tek bir seferde sisteminize yükleyebilirsiniz."
+            }
+        ]
+    },
+    "contact": {
+        "banner": {
+            "CONTACT_BANNER_TITLE": "İletişim"
+        },
+        "form": {
+            "CONTACT_FORM_INPUT_NAME_LABEL": "Ad",
+            "CONTACT_FORM_INPUT_NAME_PLACEHOLDER": "",
+            "CONTACT_FORM_INPUT_SURNAME_LABEL": "Soyad",
+            "CONTACT_FORM_INPUT_SURNAME_PLACEHOLDER": "",
+            "CONTACT_FORM_INPUT_EMAIL_LABEL": "ePosta",
+            "CONTACT_FORM_INPUT_EMAIL_PLACEHOLDER": "",
+            "CONTACT_FORM_INPUT_SUBJECT_LABEL": "Konu",
+            "CONTACT_FORM_INPUT_SUBJECT_PLACEHOLDER": "",
+            "CONTACT_FORM_TEXTAREA_MESSAGE_LABEL": "Mesaj",
+            "CONTACT_FORM_TEXTAREA_MESSAGE_PLACEHOLDER": "Öneri, talep veya şikayetlerinizi bize yazın",
+            "CONTACT_FORM_INPUT_CAPTCHA_PLACEHOLDER": "Doğrulama kodu"
+        },
+        "address": {
+            "CONTACT_ADDRESS_COMPANY_NAME_LABEL": "Firma Adı",
+            "CONTACT_ADDRESS_COMPANY_NAME_CONTENT": "Frigian Bilişim Ve Teknoloji Hizmetleri A.Ş.",
+            "CONTACT_ADDRESS_MERSIS_LABEL": "Mersis",
+            "CONTACT_ADDRESS_ADDRESS_LABEL": "Adres",
+            "CONTACT_ADDRESS_ADDRESS_CONTENT": "İstanbul Üniversitesi Avcılar TEKNOPARK Üniversite Mahallesi Sarıgül Sokak no: 37/1 ARGE Hizmet Binası Kuluçka Merkezi No: 15/68 Posta Kodu: 34320 Avcılar / İstanbul / TÜRKİYE",
+            "CONTACT_ADDRESS_PHONE_LABEL": "Telefon",
+            "CONTACT_ADDRESS_EMAIL_LABEL": "ePosta"
+        },
+        "notification": {
+            "CONTACT_NOTIFICATION_SUCCESS_MESSAGE": "Mesajınız başarıyla gönderildi",
+            "CONTACT_NOTIFICATION_ERROR_MESSAGE": "Mesajınız gönderilemedi. Lütfen tekrar deneyin",
+            "form_validation": {
+                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_NAME": "Ad boş bırakılamaz",
+                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_SURNAME": "Soyad boş bırakılamaz",
+                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL": "ePosta boş bırakılamaz",
+                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL_FORMAT": "ePosta doğru formatta girilmelidir",
+                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_SUBJECT": "Konu boş bırakılamaz",
+                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_MESSAGE": "Mesaj boş bırakılamaz",
+                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_CAPTCHA": "Lütfen doğrulama kodunu girin"
+            }
+        }
+    },
+    "blog": {
+        "banner": {
+            "BLOG_BANNER_TITLE": "Bizden Yazılar"
+        },
+        "body": {
+            "BLOG_SECTION_ITEMS_AUTHOR_PREFIX": "tarafından"
+        }
+    },
+    "footer": {
+        "FOOTER_TEXT": "Tüm hakları saklıdır.",
+        "columns": {
+            "1": {
+                "FOOTER_COLUMN_TITLE": "Hızlı Linkler",
+                "FOOTER_COLUMN_LINK_ABOUT": "Hakkımızda",
+                "FOOTER_COLUMN_LINK_SERVICES": "Servislerimiz",
+                "FOOTER_COLUMN_LINK_CONTACT": "İletişim"
+            },
+            "2": {
+                "FOOTER_COLUMN_TITLE": "Ürünler"
+            },
+            "3": {
+                "FOOTER_COLUMN_TITLE": "Yasal",
+                "FOOTER_COLUMN_LINK_AGREEMENT": "Sözleşme",
+                "FOOTER_COLUMN_LINK_PRIVACY": "Kişisel Haklar",
+                "FOOTER_COLUMN_LINK_COOKIES": "Çerez"
+            },
+            "4": {
+                "FOOTER_COLUMN_TITLE": "Ödeme Metodları"
+            }
+        }
+    },
+    "privacy": {
+        "PRIVACY_HEADER": "Gizliliğiniz",
+        "PRIVACY_TEXT": "\"Çerezleri Kabul Et\" butonuna tıklamanız, Frigian Bilişim Ve Teknoloji Hizmetleri A.Ş.' nin cihazınızdaki dil seçimini hatırlamasına yardımcı olacaktır.",
+        "PRIVACY_BUTTON": "Çerezlerİ Kabul Et"
+    }
+}

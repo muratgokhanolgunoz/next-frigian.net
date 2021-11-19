@@ -1,0 +1,72 @@
+[
+    {
+        "tagOpen": "<br>",
+        "tagClose": null,
+        "isContent": false
+    },
+    {
+        "tagOpen": "<b>",
+        "tagClose": "</b>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<u>",
+        "tagClose": "</u>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<em>",
+        "tagClose": "</em>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<mark>",
+        "tagClose": "</mark>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<h1>",
+        "tagClose": "</h1>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<h2>",
+        "tagClose": "</h2>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<h3>",
+        "tagClose": "</h3>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<h4>",
+        "tagClose": "</h4>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<h5>",
+        "tagClose": "</h5>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<h6>",
+        "tagClose": "</h6>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<pre>",
+        "tagClose": "</pre>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<small>",
+        "tagClose": "</small>",
+        "isContent": true
+    },
+    {
+        "tagOpen": "<big>",
+        "tagClose": "</big>",
+        "isContent": true
+    }
+]

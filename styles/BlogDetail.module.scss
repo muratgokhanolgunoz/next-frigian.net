@@ -1,0 +1,41 @@
+.blogDetail {
+    padding: 40px 0;
+    color: #000;
+    .modalBlogPreviewBody {
+        p {
+            text-align: justify;
+            font-size: 1.2em;
+        }
+        .modalBlogPreviewBodyThumbnail {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin-right: 10px;
+            margin-left: auto;
+            margin-top: -80px;
+        }
+    }
+    .author {
+        color: rgb(88, 88, 88);
+        display: block;
+        width: 100% !important;
+        text-align: right;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modalBlogPreviewBodyThumbnail {
+        width: 100px;
+        height: auto;
+        margin-top: -50px;
+    }
+
+    .modalBlogPreviewBody {
+        p {
+            text-align: left !important;
+            font-size: 1em;
+        }
+    }
+}

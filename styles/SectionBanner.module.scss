@@ -1,0 +1,36 @@
+.sectionBanner {
+    height: 250px;
+    margin-top: 70px;
+}
+
+.sectionBannerText {
+    width: 100%;
+    text-align: center;
+    top: 200px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    color: #fff;
+    h1 {
+        font-family: var(--font-family-2);
+        font-size: 3em;
+    }
+    ul {
+        text-align: center;
+        li {
+            display: inline-block;
+            font-size: 1.2em;
+            margin: 0 5px;
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: var(--color-1);
+                margin-left: -30px;
+            }
+            span {
+                text-transform: uppercase;
+                color: rgb(255, 255, 255, 0.6);
+            }
+        }
+    }
+}

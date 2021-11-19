@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Startup",
+        "price": 11.49,
+        "minimumUsers": 4,
+        "maximumUsers": 4,
+        "storage": 15,
+        "route": 100
+    },
+    {
+        "id": 2,
+        "name": "Business",
+        "price": 17.70,
+        "minimumUsers": 5,
+        "maximumUsers": 30,
+        "storage": 100,
+        "route": 700
+    },
+    {
+        "id": 3,
+        "name": "Premium",
+        "price": null,
+        "minimumUsers": "###",
+        "maximumUsers": "###",
+        "storage": "###",
+        "route": "###"
+    }
+]

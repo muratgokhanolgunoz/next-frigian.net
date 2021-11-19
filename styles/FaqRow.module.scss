@@ -1,0 +1,28 @@
+.faqRow {
+    margin: 30px 0;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(232, 232, 232, 1);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(232, 232, 232, 1);
+    box-shadow: 0px 0px 8px 1px rgba(232, 232, 232, 1);
+    padding: 10px;
+    .faqTitle,
+    .faqContent {
+        margin: 5px;
+    }
+    .faqText {
+        padding-left: 20px;
+        font-size: 1.5em;
+    }
+    .faqTitle {
+        .faqIcon {
+            color: rgba(255, 0, 0, 0.7);
+        }
+    }
+    .faqContent {
+        .faqIcon {
+            color: rgba(0, 128, 0, 0.7);
+        }
+    }
+    .faqIcon {
+        font-size: 2em;
+    }
+}

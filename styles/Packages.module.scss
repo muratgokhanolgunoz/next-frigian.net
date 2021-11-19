@@ -1,0 +1,84 @@
+@mixin footerButton {
+    margin-top: 20px;
+    display: block;
+    width: 100% !important;
+    font-size: 1.2em !important;
+    margin-top: 20px;
+}
+
+.pricingSubtitle2 {
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-family-1);
+    margin-top: -15px;
+}
+
+.pricingItem {
+    max-width: 280px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .pricingItemHeader {
+        text-align: center;
+        color: #fff;
+        padding: 30px 20px 20px 20px;
+        border-radius: 15px 15px 0 0;
+        position: relative;
+        h4 {
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+        }
+        .spanBestValue {
+            position: absolute;
+            background-color: #006400;
+            padding: 5px 15px;
+            font-size: 1.4em;
+            margin-top: 7px;
+            font-weight: bold;
+            color: yellow;
+            border-radius: 5px;
+        }
+    }
+    .pricingItemBody {
+        padding: 20px;
+        p {
+            color: red;
+            font-size: 1.5em;
+            font-weight: bold;
+            font-family: var(--font-family-2);
+        }
+        .pricingItemText {
+            font-size: 1.5em;
+        }
+
+        .pricingIcon {
+            padding-right: 15px;
+            font-size: 3.2em;
+            color: var(--color-9);
+        }
+
+        .pricingNoFeature {
+            color: rgb(255, 0, 0);
+        }
+    }
+    .pricingItemFooter {
+        padding: 20px;
+        border-radius: 0 0 15px 15px;
+        p {
+            font-size: 1.3em;
+            margin: 0;
+            font-weight: 600;
+        }
+        button {
+            @include footerButton();
+        }
+        a {
+            @include footerButton();
+        }
+    }
+}

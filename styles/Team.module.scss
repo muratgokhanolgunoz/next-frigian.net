@@ -1,0 +1,21 @@
+.teamBox {
+    margin-top: 50px;
+    img {
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    span {
+        text-transform: uppercase;
+        font-size: 1.2em;
+        color: var(--color-1);
+    }
+    p {
+        font-size: 1.4em;
+        margin-top: 10px;
+        min-height: 125px;
+    }
+    .teamSocial {
+        font-size: 2em;
+        color: var(--color-2);
+    }
+}

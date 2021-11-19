@@ -1,0 +1,28 @@
+.navigation {
+    text-transform: uppercase;
+    a {
+        margin: 10px;
+        text-decoration: none;
+        color: var(--color-2) !important;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.navigationLanguage {
+    a {
+        text-decoration: none;
+        color: var(--color-2);
+    }
+    button {
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+}

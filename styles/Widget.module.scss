@@ -1,0 +1,114 @@
+.widget {
+    margin-top: -200px;
+    position: relative;
+    overflow: hidden;
+    .sectionContainer {
+        padding-top: 50px !important;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+        padding-bottom: 0 !important;
+        .widgetColumn {
+            margin: 0 !important;
+            padding: 0 !important;
+            .widgetItem {
+                padding: 30px;
+                text-align: center;
+                color: #fff;
+                min-height: 300px;
+                max-height: 300px;
+                span {
+                    border: 2px solid rgb(255, 255, 255, 0.6);
+                    border-radius: 50%;
+                    width: 6.5em;
+                    height: 6.5em;
+                    display: block;
+                    margin: auto;
+                    position: relative;
+                    transform: scale(1);
+                    -webkit-transition: 0.3s all ease-in-out;
+                    -o-transition: 0.3s all ease-in-out;
+                    transition: 0.3s all ease-in-out;
+                    .widgetIcon {
+                        color: #fff;
+                        cursor: pointer;
+                        font-size: 3.5em;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                    }
+                }
+                h5 {
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-weight: 600;
+                    margin-bottom: 25px;
+                }
+                p {
+                    font-size: 1.2em;
+                }
+                .formItem {
+                    text-align: left;
+                    font-size: 1.2em;
+                    margin-top: 10px;
+                    label,
+                    input,
+                    textarea {
+                        width: 100%;
+                    }
+                    input {
+                        height: 40px;
+                    }
+                    input,
+                    textarea {
+                        background-color: transparent;
+                        border: 2px solid rgb(244, 235, 235, 0.5);
+                        padding: 10px;
+                        color: #fff;
+                        &:focus {
+                            outline: none;
+                            border-color: var(--color-1);
+                        }
+                    }
+                    button {
+                        font-size: 1em;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .widgets {
+        .sectionContainer {
+            padding-top: 100px !important;
+            padding-left: 80px !important;
+            padding-right: 80px !important;
+            padding-bottom: 0 !important;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .widgets {
+        .sectionContainer {
+            padding-top: 100px !important;
+            padding-left: 60px !important;
+            padding-right: 60px !important;
+            padding-bottom: 0 !important;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .widgets {
+        .sectionContainer {
+            padding: 0 !important;
+            margin-top: 200px;
+        }
+    }
+}

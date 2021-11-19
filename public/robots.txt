@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /sarici2021
+Disallow: /sarici2021/blogs
+Disallow: /sarici2021/careers
