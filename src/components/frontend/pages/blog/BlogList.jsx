@@ -3,25 +3,26 @@ import { Container, Row } from "react-bootstrap";
 import BlogItem from "./BlogItem";
 
 const BlogList = ({ blogs }) => {
-    const sortArray = (_array) => {
-        return _array.sort((i, j) => {
-            return i.BLOG_SECTION_ITEMS_ID - j.BLOG_SECTION_ITEMS_ID;
-        });
+    const sortBlogsById = () => {
+        let tempArray = [];
+        for (let index = blogs.length; index > 0; index--) {
+            tempArray.push(blogs[index - 1]);
+        }
+        return tempArray;
     };
+
     return (
         <div id="blog">
-            <div className={`section-padding`}>
+            <div className="section-padding">
                 <Container>
                     <Row>
-                        {
-                            sortArray(blogs).map((item, index) => (
-                                <BlogItem
-                                    key={item.BLOG_SECTION_ITEMS_ID}
-                                    index={blogs.length - (index + 1)}
-                                    blog={item}
-                                />
-                            ))
-                        }
+                        {sortBlogsById().map((item, index) => (
+                            <BlogItem
+                                key={item.BLOG_SECTION_ITEMS_ID}
+                                index={blogs.length - (index + 1)}
+                                blog={item}
+                            />
+                        ))}
                     </Row>
                 </Container>
             </div>
