@@ -15,12 +15,6 @@ const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-    useEffect(() => {
-        if (authContext.token !== "") {
-            router.push("/sarici2021");
-        }
-    }, []);
-
     const handleLogin = (_e) => {
         _e.preventDefault();
 

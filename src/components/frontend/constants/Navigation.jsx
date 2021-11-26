@@ -78,7 +78,7 @@ const Navigation = (_) => {
                                 {t("navbar.NAVBAR_ITEM_CONTACT")}
                             </Link>
                             <Link
-                                href="/blogs"
+                                href="/blog"
                                 onClick={() => setNavbarExpanded(false)}
                             >
                                 {t("navbar.NAVBAR_ITEM_BLOG")}

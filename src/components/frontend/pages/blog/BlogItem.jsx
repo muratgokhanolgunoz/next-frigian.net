@@ -16,7 +16,7 @@ const BlogItem = ({ blog, index }) => {
     return (
         <>
             <Col className={style.blogBox} xl={4} md={6}>
-                <Link href={`/${locale}/blogs/${index}`}>
+                <Link href={`/${locale}/blog/${index}`}>
                     <a target="_blank">
                         <div className={style.blogBoxItem}>
                             <Image

@@ -11,7 +11,8 @@ const AuthContextWrapper = ({ children }) => {
                 token,
                 dashboardBlogsLanguage,
                 funcSetToken: (_token) => setToken(_token),
-                funcSetDashboardBlogsLanguage: (_language) => setDashboardBlogsLanguage(_language),
+                funcSetDashboardBlogsLanguage: (_language) =>
+                    setDashboardBlogsLanguage(_language),
             }}
         >
             {children}

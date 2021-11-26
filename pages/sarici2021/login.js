@@ -11,7 +11,7 @@ const Login = (_) => {
 
     useEffect(() => {
         if (authContext.token !== "") {
-            router.push("/sarici2021");
+            router.push("/sarici2021/blogs");
         }
     }, [authContext.token]);
 

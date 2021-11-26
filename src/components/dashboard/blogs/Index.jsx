@@ -11,7 +11,6 @@ import {
     updateBlog,
 } from "../../../../_services/BlogService";
 import { showToast } from "../../../../_core/functions";
-import Navbar from "../Navbar";
 
 let formError = false;
 
@@ -209,11 +208,8 @@ const Blog = () => {
         <div id="blogs" style={{ padding: "30px" }}>
             <Container>
                 <Row>
-                    <Navbar />
-                </Row>
-                <Row>
                     <Col>
-                        <h2>Blogs | Midas Global Logistic</h2>
+                        <h2>Blogs | Frigian</h2>
                     </Col>
                 </Row>
                 <br />
@@ -472,11 +468,11 @@ const Blog = () => {
                                             </td>
                                             <td>
                                                 <a
-                                                    href={`https://mgl.cc/${authContext.dashboardBlogsLanguage}/blog/${index}`}
+                                                    href={`${process.env.NEXT_PUBLIC_URL}/${authContext.dashboardBlogsLanguage}/blog/${index}`}
                                                     target="_blank"
                                                     rel="nopenner noreferrer"
                                                 >
-                                                    {`https://mgl.cc/${authContext.dashboardBlogsLanguage}/blog/${index}`}
+                                                    {`${process.env.NEXT_PUBLIC_URL}/${authContext.dashboardBlogsLanguage}/blog/${index}`}
                                                 </a>
                                             </td>
                                             <td>
