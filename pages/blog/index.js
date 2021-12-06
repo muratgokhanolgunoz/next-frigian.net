@@ -33,7 +33,11 @@ const Index = ({ blogData }) => {
                     />
                     <meta
                         property="og:title"
-                        content={t("navbar.NAVBAR_ITEM_BLOG") + " - " + t("template.HTML_PAGE_TITLE")}
+                        content={
+                            t("navbar.NAVBAR_ITEM_BLOG") +
+                            " - " +
+                            t("template.HTML_PAGE_TITLE")
+                        }
                     />
                     <meta
                         property="og:url"
@@ -58,19 +62,16 @@ const Index = ({ blogData }) => {
                         type="image/x-icon"
                     />
                 </Head>
-                <Blogs blogs={blogData} />
+                <Blogs />
             </Layout>
         </>
     );
 };
 
 export const getServerSideProps = async ({ locale }) => {
-    const responseBlogData = getBlogs(locale);
-
     return {
         props: {
             ...(await serverSideTranslations(locale, ["common"])),
-            blogData: (await responseBlogData).data.result,
         },
     };
 };

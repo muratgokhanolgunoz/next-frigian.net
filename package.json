@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3005",
+    "dev": "next dev -p 3001",
     "build": "next build",
-    "start": "next start -p 3005",
+    "start": "next start -p 3001",
     "lint": "next lint"
   },
   "dependencies": {
@@ -29,6 +29,6 @@
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.3",
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.0"
   }
 }

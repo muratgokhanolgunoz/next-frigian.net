@@ -1,12 +1,31 @@
 import axios from "axios";
 
-export const getBlogs = (_language) => {
-    return axios.get(process.env.NEXT_PUBLIC_API_URL + "fnetBlog/" + _language);
+export const getBlogs = async (language, itemsPerPage = null, page = null) => {
+    if (itemsPerPage === null && page === null) {
+        return await axios.get(
+            process.env.NEXT_PUBLIC_API_URL + "fnetBlog" + "/" + language
+        );
+    } else {
+        return await axios.get(
+            process.env.NEXT_PUBLIC_API_URL +
+                "fnetBlog" +
+                "/" +
+                language +
+                "/" +
+                itemsPerPage +
+                "/" +
+                page
+        );
+    }
 };
 
 export const getSelectedBlog = (_language, _id) => {
     return axios.get(
-        process.env.NEXT_PUBLIC_API_URL + "fnetBlog/" + _language + "/" + _id
+        process.env.NEXT_PUBLIC_API_URL +
+            "fnetBlog/select/" +
+            _language +
+            "/" +
+            _id
     );
 };
 

@@ -3,7 +3,7 @@ import { useTranslation } from "next-i18next";
 import SectionBanner from "../../constants/SectionBanner";
 import BlogList from "./BlogList";
 
-const Index = ({ blogs }) => {
+const Index = (_) => {
     const { t } = useTranslation("common");
     return (
         <div id="blogs">
@@ -13,7 +13,7 @@ const Index = ({ blogs }) => {
                 breadcrumbPrevLink="/"
                 breadcrumbCurrentText={t("navbar.NAVBAR_ITEM_BLOG")}
             />
-            <BlogList blogs={blogs} />
+            <BlogList />
         </div>
     );
 };

@@ -8,7 +8,7 @@ import style from "../../../../../styles/BlogItem.module.scss";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-const BlogItem = ({ blog, index }) => {
+const BlogItem = ({ blog }) => {
     const { t } = useTranslation("common");
     const router = useRouter();
     const { locale } = router;
@@ -16,12 +16,12 @@ const BlogItem = ({ blog, index }) => {
     return (
         <>
             <Col className={style.blogBox} xl={4} md={6}>
-                <Link href={`/${locale}/blog/${index}`}>
+                <Link href={`/${locale}/blog/${blog.BLOG_SECTION_ITEMS_ID}`}>
                     <a target="_blank">
                         <div className={style.blogBoxItem}>
                             <Image
                                 className={style.blogBoxImage}
-                                src={blog.BLOG_SECTION_ITEMS_THUMBNAIL}
+                                src={blog.BLOG_SECTION_ITEMS_PHOTO}
                                 fluid
                             />
                             <span className={style.blogBoxItemAuthor}>

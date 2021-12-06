@@ -19,6 +19,7 @@ const Blog = () => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
+        console.log(authContext.dashboardBlogsLanguage);
         listBlogs();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [authContext.dashboardBlogsLanguage]);
@@ -179,9 +180,10 @@ const Blog = () => {
                     clearForm();
                     listBlogs();
                 })
-                .catch(() =>
-                    showToast("bottom-right", "Server error", "error")
-                );
+                .catch((error) => {
+                    console.log(error);
+                    showToast("bottom-right", error, "error");
+                });
         }
     };
 
@@ -447,10 +449,14 @@ const Blog = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                                {blogs.map((blogItem, index) => (
+                                {blogs.map((blogItem) => (
                                     <>
-                                        <tr>
-                                            <td>{index + 1}</td>
+                                        <tr
+                                            key={blogItem.BLOG_SECTION_ITEMS_ID}
+                                        >
+                                            <td>
+                                                {blogItem.BLOG_SECTION_ITEMS_ID}
+                                            </td>
                                             <td>
                                                 {
                                                     blogItem.BLOG_SECTION_ITEMS_AUTHOR
@@ -468,11 +474,11 @@ const Blog = () => {
                                             </td>
                                             <td>
                                                 <a
-                                                    href={`${process.env.NEXT_PUBLIC_URL}/${authContext.dashboardBlogsLanguage}/blog/${index}`}
+                                                    href={`${process.env.NEXT_PUBLIC_URL}/${authContext.dashboardBlogsLanguage}/blog/${blogItem.BLOG_SECTION_ITEMS_ID}`}
                                                     target="_blank"
                                                     rel="nopenner noreferrer"
                                                 >
-                                                    {`${process.env.NEXT_PUBLIC_URL}/${authContext.dashboardBlogsLanguage}/blog/${index}`}
+                                                    {`${process.env.NEXT_PUBLIC_URL}/${authContext.dashboardBlogsLanguage}/blog/${blogItem.BLOG_SECTION_ITEMS_ID}`}
                                                 </a>
                                             </td>
                                             <td>
@@ -501,7 +507,7 @@ const Blog = () => {
                                                         color: "#000",
                                                     }}
                                                     onClick={() =>
-                                                        getEditBlog(index)
+                                                        getEditBlog(blogItem.BLOG_SECTION_ITEMS_ID)
                                                     }
                                                 >
                                                     <RiEditBoxLine />
