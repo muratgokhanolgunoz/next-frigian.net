@@ -5,16 +5,15 @@ import PricingContext from "../../../../../../../_store/PricingContext";
 import RegisterService from "../../../../../../../_services/RegisterService";
 import { useTranslation } from "next-i18next";
 import {
-    dataUriToBlob,
+    // dataUriToBlob,
     showToast,
     validateEmail,
 } from "../../../../../../../_core/functions";
 import NavigationButtons from "./NavigationButtons";
 import Billing from "../billing/Index";
-import PopupCompanyLogo from "./PopupCompanyLogo";
+// import PopupCompanyLogo from "./PopupCompanyLogo";
 import Cropper from "react-cropper";
-import Resizer from "react-image-file-resizer";
-import { ToastContainer } from "react-toastify";
+// import Resizer from "react-image-file-resizer";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaCheck, FaTimes } from "react-icons/fa";
 
@@ -38,18 +37,18 @@ const PricingForm = () => {
     const pricingContext = useContext(PricingContext);
     let registerService = new RegisterService();
     let formError = false;
+
     const fileCompanyLogoRef = useRef();
+    const fileCompanyDocumentRef = useRef();
 
     const [companyLogo, setCompanyLogo] = useState(undefined);
-    const [croppedCompanyLogoDataIri, setCroppedCompanyLogoDataUri] =
-        useState("");
-    const [croppedCompanyLogoBlob, setCroppedCompanyLogoBlob] = useState({});
+    // const [croppedCompanyLogoDataIri, setCroppedCompanyLogoDataUri] =
+    //     useState("");
+    // const [croppedCompanyLogoBlob, setCroppedCompanyLogoBlob] = useState({});
     const [cropperCompanyLogo, setCropperCompanyLogo] = useState(undefined);
-
-    const [popupShow, setPopupShow] = useState(false);
-
-    const popupHandleClose = () => setPopupShow(false);
-    const popupHandleShow = () => setPopupShow(true);
+    //const [popupShow, setPopupShow] = useState(false);
+    // const popupHandleClose = () => setPopupShow(false);
+    // const popupHandleShow = () => setPopupShow(true);
 
     useEffect(() => {
         pricingContext.calculateYearlyPrice();
@@ -93,89 +92,93 @@ const PricingForm = () => {
         }
     };
 
-    const closeCropperArea = () => {
-        setCompanyLogo(undefined);
-        clearCompanyLogoRef();
-        pricingContext.setTempCompanyLogo(pricingContext.state.companyLogo);
-    };
+    // const closeCropperArea = () => {
+    //     setCompanyLogo(undefined);
+    //     clearCompanyLogoRef();
+    //     pricingContext.setTempCompanyLogo(pricingContext.state.companyLogo);
+    // };
 
-    const imageOnChange = (_file) => {
-        if (pricingContext.state.subdomain !== "") {
-            if (_file.size <= 1048576) {
-                const reader = new FileReader();
-                reader.onload = () => {
-                    setCompanyLogo(reader.result);
-                };
-                reader.readAsDataURL(_file);
-                pricingContext.setTempCompanyLogo("");
-            } else {
-                showToast(
-                    "bottom-right",
-                    t("register.notification.LOGO_UPLOAD_FILE_SIZE_ERROR"),
-                    "error"
-                );
-            }
-        } else {
-            showToast(
-                "bottom-right",
-                t("register.notification.DEFINE_SUBDOMAIN"),
-                "error"
-            );
-        }
-    };
+    // const imageOnChange = (_file) => {
+    //     if (pricingContext.state.subdomain !== "") {
+    //         if (_file.size <= 1048576) {
+    //             const reader = new FileReader();
+    //             reader.onload = () => {
+    //                 setCompanyLogo(reader.result);
+    //             };
+    //             reader.readAsDataURL(_file);
+    //             pricingContext.setTempCompanyLogo("");
+    //         } else {
+    //             showToast(
+    //                 "bottom-right",
+    //                 t("register.notification.LOGO_UPLOAD_FILE_SIZE_ERROR"),
+    //                 "error"
+    //             );
+    //         }
+    //     } else {
+    //         showToast(
+    //             "bottom-right",
+    //             t("register.notification.DEFINE_SUBDOMAIN"),
+    //             "error"
+    //         );
+    //     }
+    // };
 
     const clearCompanyLogoRef = () => {
         fileCompanyLogoRef.current.value = "";
     };
 
-    const resizeCompanyPhoto = (_file, _type, _function) => {
-        // 1 => blob
-        // 2 => base64
+    const clearCompanyDocumentRef = () => {
+        fileCompanyDocumentRef.current.value = "";
+    }
 
-        try {
-            Resizer.imageFileResizer(
-                _file,
-                350,
-                350,
-                "PNG",
-                100,
-                0,
-                (uri) => {
-                    _function(uri);
-                },
-                _type === 1 ? "blob" : "base64",
-                350,
-                0
-            );
-        } catch (err) {
-            console.log(err);
-        }
-    };
+    // const resizeCompanyPhoto = (_file, _type, _function) => {
+    //     // 1 => blob
+    //     // 2 => base64
 
-    const getCroppedCompanyLogo = () => {
-        if (typeof cropperCompanyLogo !== "undefined") {
-            // for upload from api
-            resizeCompanyPhoto(
-                dataUriToBlob(
-                    cropperCompanyLogo.getCroppedCanvas().toDataURL(),
-                    "image/png"
-                ),
-                1,
-                setCroppedCompanyLogoBlob
-            );
+    //     try {
+    //         Resizer.imageFileResizer(
+    //             _file,
+    //             350,
+    //             350,
+    //             "PNG",
+    //             100,
+    //             0,
+    //             (uri) => {
+    //                 _function(uri);
+    //             },
+    //             _type === 1 ? "blob" : "base64",
+    //             350,
+    //             0
+    //         );
+    //     } catch (err) {
+    //         console.log(err);
+    //     }
+    // };
 
-            // for view
-            resizeCompanyPhoto(
-                dataUriToBlob(
-                    cropperCompanyLogo.getCroppedCanvas().toDataURL(),
-                    "image/png"
-                ),
-                2,
-                setCroppedCompanyLogoDataUri
-            );
-            popupHandleShow(true);
-        }
-    };
+    // const getCroppedCompanyLogo = () => {
+    //     if (typeof cropperCompanyLogo !== "undefined") {
+    //         // for upload from api
+    //         resizeCompanyPhoto(
+    //             dataUriToBlob(
+    //                 cropperCompanyLogo.getCroppedCanvas().toDataURL(),
+    //                 "image/png"
+    //             ),
+    //             1,
+    //             setCroppedCompanyLogoBlob
+    //         );
+
+    //         // for view
+    //         resizeCompanyPhoto(
+    //             dataUriToBlob(
+    //                 cropperCompanyLogo.getCroppedCanvas().toDataURL(),
+    //                 "image/png"
+    //             ),
+    //             2,
+    //             setCroppedCompanyLogoDataUri
+    //         );
+    //         popupHandleShow(true);
+    //     }
+    // };
 
     const documentOnChange = (_doc) => {
         if (pricingContext.state.subdomain !== "") {
@@ -229,6 +232,62 @@ const PricingForm = () => {
                 "error"
             );
         }
+        clearCompanyDocumentRef();
+    };
+
+    const imageOnChange = (_img) => {
+        if (pricingContext.state.subdomain !== "") {
+            if (_img.size <= 1048576) {
+                const payload = new FormData();
+                payload.append("file", _img);
+                payload.append("subdomain", pricingContext.state.subdomain);
+
+                registerService
+                    .uploadLogo(payload)
+                    .then(({ data, status }) => {
+                        if (status === 200) {
+                            pricingContext.setCompanyLogo(data.img);
+                            showToast(
+                                "bottom-right",
+                                t(
+                                    "register.notification.LOGO_UPLOAD_SUCCESS_MESSAGE"
+                                ),
+                                "success"
+                            );
+                        } else {
+                            showToast(
+                                "bottom-right",
+                                t(
+                                    "register.notification.LOGO_UPLOAD_ERROR_MESSAGE"
+                                ),
+                                "error"
+                            );
+                        }
+                    })
+                    .catch(() =>
+                        showToast(
+                            "bottom-right",
+                            t(
+                                "register.notification.LOGO_UPLOAD_ERROR_MESSAGE"
+                            ),
+                            "error"
+                        )
+                    );
+            } else {
+                showToast(
+                    "bottom-right",
+                    t("register.notification.LOGO_UPLOAD_FILE_SIZE_ERROR"),
+                    "error"
+                );
+            }
+        } else {
+            showToast(
+                "bottom-right",
+                t("register.notification.DEFINE_SUBDOMAIN"),
+                "error"
+            );
+        }
+        clearCompanyLogoRef();
     };
 
     const save = () => {
@@ -346,18 +405,18 @@ const PricingForm = () => {
                 .then((response) =>
                     response.status === 200
                         ? (showToast(
-                              "bottom-right",
-                              t("register.notification.REGISTRATION_SUCCESS"),
-                              "success"
-                          ),
-                          setTimeout(() => {
-                              window.location.reload();
-                          }, 3000))
+                            "bottom-right",
+                            t("register.notification.REGISTRATION_SUCCESS"),
+                            "success"
+                        ),
+                            setTimeout(() => {
+                                window.location.reload();
+                            }, 3000))
                         : showToast(
-                              "bottom-right",
-                              t("register.notification.REGISTRATION_ERROR"),
-                              "error"
-                          )
+                            "bottom-right",
+                            t("register.notification.REGISTRATION_ERROR"),
+                            "error"
+                        )
                 )
                 .catch(() =>
                     showToast(
@@ -575,7 +634,7 @@ const PricingForm = () => {
                                     </div>
                                 </form>
                             </Col>
-                            {companyLogo !== undefined ? (
+                            {/* {companyLogo !== undefined ? (
                                 <React.Fragment>
                                     <Col md={12}>
                                         <Cropper
@@ -627,9 +686,8 @@ const PricingForm = () => {
                                         </button>
                                     </Col>
                                 </React.Fragment>
-                            ) : null}
-                            {pricingContext.state.companyLogo !== "" &&
-                            pricingContext.state.tempCompanyLogo !== "" ? (
+                            ) : null}*/}
+                            {pricingContext.state.companyLogo !== "" ? (
                                 <Col md={12}>
                                     <div id="view-upload-company-logo">
                                         <img
@@ -643,6 +701,8 @@ const PricingForm = () => {
                                 </Col>
                             ) : null}
                         </Row>
+                        {console.log("https://demo.frigian.net" +
+                            pricingContext.state.companyLogo)}
                         <Row>
                             <Col md={12}>
                                 <form>
@@ -656,6 +716,7 @@ const PricingForm = () => {
                                         <input
                                             type="file"
                                             accept="*"
+                                            ref={fileCompanyDocumentRef}
                                             onChange={(e) =>
                                                 documentOnChange(
                                                     e.target.files[0]
@@ -679,16 +740,6 @@ const PricingForm = () => {
                     />
                 </Row>
             </Container>
-
-            <PopupCompanyLogo
-                companyPopupShow={popupShow}
-                companyPopupHandleClose={popupHandleClose}
-                companyLogoHandleChange={setCompanyLogo}
-                companyLogoDataUri={croppedCompanyLogoDataIri}
-                companyLogoBlob={croppedCompanyLogoBlob}
-                companyLogoRefClear={clearCompanyLogoRef}
-            />
-            <ToastContainer />
         </div>
     );
 };

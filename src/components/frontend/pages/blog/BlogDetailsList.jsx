@@ -10,20 +10,20 @@ import { useTranslation } from "next-i18next";
 const BlogDetailsList = (_) => {
     const router = useRouter();
     const { t } = useTranslation("common");
-    const { locale } = router;
+    const { locale, query } = router;
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
         try {
-            getBlogs(locale, 5, 1).then((response) => {
-                setBlogs(response.data.result);
+            getBlogs(locale).then(({ data }) => {
+                setBlogs(data.result.filter((x) => parseInt(x.BLOG_SECTION_ITEMS_ID) !== parseInt(query.blogId)));
             });
         } catch (error) {
             console.warn(error);
             showToast("bottom-right", error, "error");
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    }, [query.blogId]);
 
     return (
         <>
