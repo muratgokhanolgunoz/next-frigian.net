@@ -1,37 +1,35 @@
-import React from 'react'
-import Context from '../../context/Context'
-import PropTypes from 'prop-types'
-import { useTranslation } from 'react-i18next'
-import { Button } from 'react-bootstrap'
+import React, { useContext } from "react";
+import PropTypes from "prop-types";
+import { useRouter } from "next/router";
+import { useTranslation } from "react-i18next";
+import style from "../../../../styles/CookieBanner.module.scss";
+import { FaTimes } from "react-icons/fa";
 
-const CookieBanner = (props) => {
-
-    const { t } = useTranslation('translation')
+const CookieBanner = ({ funcSetCookie, funcSetCookieBannerShow }) => {
+    const { t } = useTranslation("common");
+    const router = useRouter();
 
     return (
-        <Context.Consumer>
-            {(context) => (
-                props.funcGetCookie().language === undefined && context.state.cookie.language === undefined
-                    ?
-                    (
-                        <div id="cookie-banner">
-                            <div className="cookie-banner" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
-                                <h5>{t('privacy.PRIVACY_HEADER')}</h5>
-                                <p>{t('privacy.PRIVACY_TEXT')}</p>
-                                <Button className="cookie_banner_button template-button template-button-dark" onClick={() => props.funcSetCookie(window.navigator.language.substr(0, 2) === "en" ? "us" : window.navigator.language.substr(0, 2))}>{t('privacy.PRIVACY_BUTTON')}</Button>
-                                <h6 onClick={() => context.setCookie({ language: null })}>Kapat</h6>
-                            </div>
-                        </div>
-                    )
-                    : null
-            )}
-        </Context.Consumer >
-    )
-}
+        <div>
+            <div className={style.cookieBanner}>
+                <span className={style.close}>
+                    <FaTimes onClick={() => funcSetCookieBannerShow(false)} />
+                </span>
+                <h5>{t("privacy.PRIVACY_HEADER")}</h5>
+                <p>{t("privacy.PRIVACY_TEXT")}</p>
+                <button
+                    className={`${style.cookieBannerButton} template-button template-button-primary-1`}
+                    onClick={() => funcSetCookie(router.locale)}>
+                    {t("privacy.PRIVACY_BUTTON")}
+                </button>
+            </div>
+        </div>
+    );
+};
 
 CookieBanner.propTypes = {
     funcSetCookie: PropTypes.func.isRequired,
-    funcGetCookie: PropTypes.func.isRequired,
-}
+    funcSetCookieBannerShow: PropTypes.func.isRequired,
+};
 
-export default CookieBanner
+export default CookieBanner;

@@ -8,10 +8,16 @@ import style from "../../../../styles/Navigation.module.scss";
 import Flag from "react-world-flags";
 import { useRouter } from "next/router";
 
-const Navigation = (_) => {
+const Navigation = ({ funcSetCookie, funcGetCookie }) => {
     const { t } = useTranslation("common");
     const router = useRouter();
     const { locale } = router;
+
+    const handleChangeLanguage = (_language) => {
+        if (funcGetCookie().language !== undefined) {
+            funcSetCookie(_language);
+        }
+    };
 
     const [navbarExpanded, setNavbarExpanded] = useState(false);
 
@@ -22,8 +28,7 @@ const Navigation = (_) => {
                 bg="light"
                 expand="xl"
                 expanded={navbarExpanded}
-                fixed="top"
-            >
+                fixed="top">
                 <Container>
                     <Navbar.Brand>
                         <Link href="/" onClick={() => setNavbarExpanded(false)}>
@@ -31,8 +36,7 @@ const Navigation = (_) => {
                                 className={style.logo}
                                 src="https://frigian.net/assets/img/frigian-dark.png"
                                 fluid
-                                alt="Frigian"
-                            ></Image>
+                                alt="Frigian"></Image>
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle
@@ -43,51 +47,43 @@ const Navigation = (_) => {
                         <Nav className={`me-auto ${style.navigation}`}>
                             <Link
                                 href="/"
-                                onClick={() => setNavbarExpanded(false)}
-                            >
+                                onClick={() => setNavbarExpanded(false)}>
                                 {t("navbar.NAVBAR_ITEM_HOME")}
                             </Link>
                             <Link
                                 href="/about"
-                                onClick={() => setNavbarExpanded(false)}
-                            >
+                                onClick={() => setNavbarExpanded(false)}>
                                 {t("navbar.NAVBAR_ITEM_ABOUT")}
                             </Link>
                             <Link
                                 href="/service"
-                                onClick={() => setNavbarExpanded(false)}
-                            >
+                                onClick={() => setNavbarExpanded(false)}>
                                 {t("navbar.NAVBAR_ITEM_SERVICES")}
                             </Link>
                             <Link
                                 href="/pricing"
-                                onClick={() => setNavbarExpanded(false)}
-                            >
+                                onClick={() => setNavbarExpanded(false)}>
                                 {t("navbar.NAVBAR_ITEM_PRICING")}
                             </Link>
                             <Link
                                 href="/faq"
-                                onClick={() => setNavbarExpanded(false)}
-                            >
+                                onClick={() => setNavbarExpanded(false)}>
                                 {t("navbar.NAVBAR_ITEM_FAQ")}
                             </Link>
                             <Link
                                 href="/contact"
-                                onClick={() => setNavbarExpanded(false)}
-                            >
+                                onClick={() => setNavbarExpanded(false)}>
                                 {t("navbar.NAVBAR_ITEM_CONTACT")}
                             </Link>
                             <Link
                                 href="/blog"
-                                onClick={() => setNavbarExpanded(false)}
-                            >
+                                onClick={() => setNavbarExpanded(false)}>
                                 {t("navbar.NAVBAR_ITEM_BLOG")}
                             </Link>
                             <a
                                 href="https://frigian.whereby.com/frigian"
                                 target="_blank"
-                                rel="noreferrer"
-                            >
+                                rel="noreferrer">
                                 {t("navbar.NAVBAR_ITEM_MEETING_ROOM")}
                             </a>
                         </Nav>
@@ -109,7 +105,10 @@ const Navigation = (_) => {
                                 <Dropdown.Menu>
                                     <Dropdown.Item>
                                         <Link href="" locale="tr">
-                                            <a className="">
+                                            <a
+                                                onClick={() =>
+                                                    handleChangeLanguage("tr")
+                                                }>
                                                 <Flag code="tr" height="20" />
                                                 &nbsp;&nbsp;{" "}
                                                 {t(
@@ -120,7 +119,10 @@ const Navigation = (_) => {
                                     </Dropdown.Item>
                                     <Dropdown.Item>
                                         <Link href="" locale="en">
-                                            <a>
+                                            <a
+                                                onClick={() =>
+                                                    handleChangeLanguage("en")
+                                                }>
                                                 <Flag code="us" height="16" />{" "}
                                                 &nbsp;{" "}
                                                 {t(
@@ -137,6 +139,11 @@ const Navigation = (_) => {
             </Navbar>
         </div>
     );
+};
+
+Navigation.propTypes = {
+    funcSetCookie: PropTypes.func.isRequired,
+    funcGetCookie: PropTypes.func.isRequired,
 };
 
 export default Navigation;
