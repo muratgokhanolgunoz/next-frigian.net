@@ -414,7 +414,8 @@
             "BLOG_BANNER_TITLE": "Our Articles"
         },
         "body": {
-            "BLOG_SECTION_ITEMS_AUTHOR_PREFIX": "by"
+            "BLOG_SECTION_ITEMS_AUTHOR_PREFIX": "by",
+            "BLOG_SECTION_DETAILS_OTHER_BLOGS_HEADER": "OTHER ARTICLES"
         },
         "error": {
             "BLOG_SECTION_ERROR_BLOG_NOT_FOUND": "The article was not found. Please check the link and try again",

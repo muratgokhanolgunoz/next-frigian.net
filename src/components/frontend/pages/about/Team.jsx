@@ -6,7 +6,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { GrLinkedin } from "react-icons/gr";
 import style from "../../../../../styles/Team.module.scss";
 
-const Team = () => {
+const Team = (_) => {
     const { t } = useTranslation("common");
 
     return (
@@ -29,6 +29,8 @@ const Team = () => {
                         <div className={style.teamBox}>
                             <Image
                                 src="./assets/img/about/team_1.jpg"
+                                title="Seyfi ARICI"
+                                alt="Seyfi ARICI - Frigian"
                                 fluid
                             ></Image>
                             <h5>Seyfi ARICI</h5>
@@ -53,6 +55,8 @@ const Team = () => {
                         <div className={style.teamBox}>
                             <Image
                                 src="./assets/img/about/team_2.jpg"
+                                title="Turaj FARSI"
+                                alt="Turaj FARSI - Frigian"
                                 fluid
                             ></Image>
                             <h5>Turaj FARSI</h5>

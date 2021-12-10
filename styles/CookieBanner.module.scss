@@ -1,0 +1,40 @@
+.cookieBanner {
+    position: relative;
+    background-color: #2f3337;
+    left: 25px;
+    bottom: 25px;
+    position: fixed;
+    display: block;
+    width: 300px !important;
+    z-index: 999;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #fff;
+    font-size: 0.9em;
+    font-family: "Rubik", sans-serif;
+    .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        margin: 10px;
+        color: #000;
+        padding: 2px 5px;
+        border-radius: 50%;
+        display: block;
+        cursor: pointer;
+    }
+    .cookieBannerButton {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        height: 30px;
+        padding: 0;
+    }
+    p {
+        font-size: 1.3em
+    }
+}

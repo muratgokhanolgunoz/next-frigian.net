@@ -42,6 +42,7 @@ const History = () => {
                             className={style.historyImage}
                             src="./assets/img/about/history_2.jpg"
                             title="Frigian"
+                            alt="Frigian"
                             fluid
                         ></Image>
                         {/* <Image className="history-image" src="./assets/img/about/history_1.jpg" title="Frigian" fluid></Image>                         */}
@@ -49,6 +50,7 @@ const History = () => {
                             className={style.historyImage}
                             src="./assets/img/about/history_3.jpg"
                             title="Online eğitimlerimizden bir sahne"
+                            alt="Frigian"
                             fluid
                         ></Image>
                     </Col>
