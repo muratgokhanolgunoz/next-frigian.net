@@ -112,8 +112,8 @@
                 }
             }
         },
-        "video": {
-            "VIDEO_TEXT": "Frigian özelliklerine göz atmak için videomuzu izleyin"
+        "video": {            
+            "VIDEO_TEXT": "Frigian özelliklerine göz atmak için videomuzu izleyin"            
         }
     },
     "about": {
@@ -465,7 +465,8 @@
                 "FOOTER_COLUMN_TITLE": "Hızlı Linkler",
                 "FOOTER_COLUMN_LINK_ABOUT": "Hakkımızda",
                 "FOOTER_COLUMN_LINK_SERVICES": "Servislerimiz",
-                "FOOTER_COLUMN_LINK_CONTACT": "İletişim"
+                "FOOTER_COLUMN_LINK_CONTACT": "İletişim",
+                "FOOTER_COLUMN_LINK_VIDEO": "Sunum Videomuz"
             },
             "2": {
                 "FOOTER_COLUMN_TITLE": "Ürünler"

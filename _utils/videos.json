@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "path": "./assets/videos/intro_tr.mp4"
+  },
+  {
+    "id": 2,
+    "path": "./assets/videos/intro_en.mp4"
+  },
+  {
+    "id": 3,
+    "path": "https://www.youtube.com/embed/tb9PvvLNxA0"
+  }
+]

@@ -1,493 +1,494 @@
 {
-    "template": {
-        "HTML_PAGE_TITLE": "Frigian Information Technology Services"
+  "template": {
+    "HTML_PAGE_TITLE": "Frigian Information Technology Services"
+  },
+  "template_message": {
+    "error": {
+      "NOT_FOUND": "Requested Page Not Found",
+      "BLOG_SERVER_ERROR": "The articles could not be listed due to a problem on the server side"
     },
-    "template_message": {
-        "error": {
-            "NOT_FOUND": "Requested Page Not Found",
-            "BLOG_SERVER_ERROR": "The articles could not be listed due to a problem on the server side"
-        },
-        "warning": {
-            "BLOG_NOT_FOUND": "No article found for the language you selected"
-        },
-        "info": {
-            "WAIT_RESPONSE": "Waiting for response from server ..."
-        }
+    "warning": {
+      "BLOG_NOT_FOUND": "No article found for the language you selected"
     },
-    "buttons": {
-        "NEXT": "Next",
-        "PREVIOUS": "Previous",
-        "SAVE": "Save",
-        "CHECK_PACKAGES": "Check Packages",
-        "SEND_REQUEST": "Send Request",
-        "SEND_MESSAGE": "Send Message",
-        "READ_MORE": "Read More . . ."
-    },
-    "navbar": {
-        "NAVBAR_ITEM_HOME": "Home",
-        "NAVBAR_ITEM_ABOUT": "About Us",
-        "NAVBAR_ITEM_SERVICES": "Services",
-        "NAVBAR_ITEM_PRICING": "Pricing",
-        "NAVBAR_ITEM_FAQ": "Faq",
-        "NAVBAR_ITEM_CONTACT": "Contact",
-        "NAVBAR_ITEM_BLOG": "Blog",
-        "NAVBAR_ITEM_MEETING_ROOM": "Meeting Room",
-        "language": {
-            "NAVBAR_ITEM_LANGUAGE_TR": "TURKISH",
-            "NAVBAR_ITEM_LANGUAGE_EN": "ENGLISH"
-        }
-    },
-    "home": {
-        "banner": {
-            "BANNER_HEADER": "Logistics Digital Platform",
-            "BANNER_CONTENT": "New Generation Logistics Management System Integrated Freights Market"
-        },
-        "widgets": {
-            "left": {
-                "WIDGET_LEFT_TITLE": "Best Price",
-                "WIDGET_LEFT_CONTENT": "Pay less by choosing the right package to manage your operations. You will not need to pay a setup fee."
-            },
-            "center": {
-                "WIDGET_CENTER_TITLE": "Let Us Call You",
-                "form": {
-                    "WIDGET_CENTER_FORM_NAME": "Name Surname",
-                    "WIDGET_CENTER_FORM_PHONE": "Phone",
-                    "WIDGET_CENTER_FORM_EMAIL": "eMail"
-                }
-            },
-            "right": {
-                "WIDGET_RIGHT_TITLE": "7 / 24 Support",
-                "WIDGET_RIGHT_CONTENT": "You can send your request email at any time of the day and support staff will respond as soon as possible. Also sending feedback is available."
-            },
-            "notification": {
-                "HOME_WIDGETS_NOTIFICATION_SUCCESS_MESSAGE": "Your message has been sent successfully",
-                "HOME_WIDGETS_NOTIFICATION_ERROR_MESSAGE": "Your message could not be sent. Please try again",
-                "form_validation": {
-                    "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_NAME": "Name cannot be left blank",
-                    "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL": "eMail cannot be left blank",
-                    "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL_FORMAT": "eMail must be entered in the correct format",
-                    "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_PHONE": "Phone cannot be left blank"
-                }
-            }
-        },
-        "why": {
-            "WHY_SECTION_TITLE": "Why Frigian ?",
-            "WHY_SECTION_SUBTITLE": "By Frigian you will take the following advantages",
-            "items": {
-                "1": {
-                    "WHY_ITEMS_TITLE": "Speed up Operations",
-                    "WHY_ITEMS_CONTENT": "Fast offer from uploaded price lists and easy and quick sending of messages and attachments to audiences"
-                },
-                "2": {
-                    "WHY_ITEMS_TITLE": "Avoid Mistakes",
-                    "WHY_ITEMS_CONTENT": "Alert and prevent the sending of incorrect or incomplete information as well as to the wrong persons"
-                },
-                "3": {
-                    "WHY_ITEMS_TITLE": "Integrity",
-                    "WHY_ITEMS_CONTENT": "Integrated and automated managed data exchange with global transport systems for sending and updating cargos"
-                },
-                "4": {
-                    "WHY_ITEMS_TITLE": "Paperless",
-                    "WHY_ITEMS_CONTENT": "Save and keep documents and attachments of each file separately and access to all of them during shipping operations"
-                },
-                "5": {
-                    "WHY_ITEMS_TITLE": "Total Solution",
-                    "WHY_ITEMS_CONTENT": "Perform all transportation operations from sales to operations and documentation to accounting and archiving"
-                },
-                "6": {
-                    "WHY_ITEMS_TITLE": "Online Booking/Tracking",
-                    "WHY_ITEMS_CONTENT": "Get booking based on uploaded prices and follow up by QrCode both on frigian.com and on the company's own website"
-                },
-                "7": {
-                    "WHY_ITEMS_TITLE": "Cloud Archive",
-                    "WHY_ITEMS_CONTENT": "Store and maintain relevant information and attachments in the Frigian archive storage for a period of 10 years"
-                },
-                "8": {
-                    "WHY_ITEMS_TITLE": "Easy Training",
-                    "WHY_ITEMS_CONTENT": "Quick and easy tutorial on how to manage shipping files with paddock files and videos on the Frygian Channel on YouTube"
-                },
-                "9": {
-                    "WHY_ITEMS_TITLE": "7/24 Support",
-                    "WHY_ITEMS_CONTENT": "Receive support requests throughout the day from the support team and troubleshoot any problems as soon as possible"
-                }
-            }
-        },
-        "video": {
-            "VIDEO_TEXT": "Discover frigian features by watching this short video"
-        }
-    },
-    "about": {
-        "banner": {
-            "ABOUT_BANNER_TITLE": "About Frigian"
-        },
-        "history": {
-            "HISTORY_TITLE": "Our History",
-            "HISTORY_PARAGRAPH_1": "The foundations of the Frigian project began in 2015 with the decision to code a pre-accounting application to meet the needs of the Freight Forwarding industry. The marketplace application was created to close the gap in online pricing in 2017. However, in order for the marketplace application to work actively, the lack of an integrated Transportation Management System was noticed and Frigian evolved into what it is today. It had now turned into a 100% integrated platform with a freight market. Real-time testing began in September 2018. In December 2018, the decision of incorporation was taken and Frigian Information Technology Services was established. Platform tests started in January 2019 with three Freight Forwarder companies. Frigian project has approved by the Istanbul Technopark  as \"Technopark Project\" in July 2019. Then we moved to the office in Teknopark. In 2020, we started to accept customers commercially. As of 2021, we have reached 270 active users with 30 customer companies. As a TMS that includes import-export, complete, partial, and consolidation in Land, Air, Sea, and Train transportation modes. We have come to serve the entire freight forwarding industry. Our past experiences have helped us a lot in the search for digitalization that started with Covid, and at this point, pricing algorithms that have become more dynamic show that more digitalization is inevitable. As of 2021, we have pulled our Freight Market application to the beta level. When Frigian reaches 68 Freight Forwarder companies in each country, the Freight Marketplace will become active and these companies will be more advantageous. We calculated that we can manage 17 geographical regions around the world with 68 Freight Forwarder companies for an active freight management system. Of course, these companies that join Frigian early will have priority, but it will not be possible to keep this advantage forever. Competitive and up-to-date for a dynamic freight management system will be key to staying on this list.",
-            "HISTORY_PARAGRAPH_2": "Each freight forwarder member can view online pricing, online booking, and real-time freight tracking extensions on their sites with a 10-minute process. The Frigian team is designed and developed by a team of experts in logistics and information technologies. Our services are added to the system after passing real tests, and our platform continues to evolve with feedback and requests from each service provider.",
-            "HISTORY_SIGNATURE": "Team Frigian"
-        },
-        "how_to_join": {
-            "HOW_TO_JOIN_TITLE": "How To Join",
-            "items": {
-                "1": {
-                    "HOW_TO_JOIN_ITEM_ID": "1",
-                    "HOW_TO_JOIN_ITEM_TITLE": "Choose Your Package",
-                    "HOW_TO_JOIN_ITEM_CONTENT": "Depending on the number of employees in your company that will work with the Freigian platform, select your package and click on Register."
-                },
-                "2": {
-                    "HOW_TO_JOIN_ITEM_ID": "2",
-                    "HOW_TO_JOIN_ITEM_TITLE": "Fill Your Company Information",
-                    "HOW_TO_JOIN_ITEM_CONTENT": "Enter your company information correctly."
-                },
-                "3": {
-                    "HOW_TO_JOIN_ITEM_ID": "3",
-                    "HOW_TO_JOIN_ITEM_TITLE": "Do Your Payment",
-                    "HOW_TO_JOIN_ITEM_CONTENT": "Finish your membership process by making the payment. You can save %10 by yearly payment. Frigian guarantees that your account will be refunded if you opt out for one month from the date of membership."
-                }
-            }
-        },
-        "team": {
-            "TEAM_TITLE": "Who We Are",
-            "items": {
-                "1": {
-                    "TEAM_ITEMS_RANK": "Co-Founder, Ceo",
-                    "TEAM_ITEMS_DESCRIPTION": "Logistics coordinator and freight-forwarder team manager with more than 22 years experience in international logistics. Industry 4.0 and integration in logistics are high priority subjects for Seyfi."
-                },
-                "2": {
-                    "TEAM_ITEMS_RANK": "Co-Founder, Cto",
-                    "TEAM_ITEMS_DESCRIPTION": "Software designer and developer and team manager with more than 25 years experience in IT. Best data modeling, performance tuning and integration are high priority subjects for Turaj."
-                }
-            }
-        }
-    },
-    "services": {
-        "banner": {
-            "SERVICES_BANNER_TITLE": "Our Services"
-        },
-        "titles": {
-            "SERVICES_COLUMNS_LEFT_TITLE": "Cloud Modules",
-            "SERVICES_COLUMNS_RIGHT_TITLE": "Cloud Services"
-        },
-        "columns": {
-            "left": [
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Dashboard",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "A snapshot from projects and assets"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Cash Assets",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Bank accounts and cash management"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Price List",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Uploading price list for fast offering"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Offer",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Generating fast offer and send to customer"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Inland Carrier",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Managing inland carriers status"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Operation",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Operating logistics activity"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Console",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Managing console project easily"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Accounting",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Controlling accounts activities"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Quality Control",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Check projects before archiving"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Archive",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Archiving finished projects"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Messaging",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "In app and customers email messaging"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Attachment",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Attaching projects related papers"
-                }
-            ],
-            "right": [
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Database",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Saving data in replicated and separated area"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Storage",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Keeping documents in separated storage"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Daily Backup",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Keeping daily backups of data and files"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Archiving",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Keeping data and files for 10 years"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Download",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Downloading projects and activities periodically"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Online Resize",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Growing required storage any time"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Changing Package",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Up or downgrading package any time"
-                },
-                {
-                    "SERVICES_COLUMNS_ITEMS_TITLE": "Pay as you go",
-                    "SERVICES_COLUMNS_ITEMS_CONTENT": "Paying just for what you use"
-                }
-            ]
-        }
-    },
-    "pricing": {
-        "banner": {
-            "TITLE": "Pricing"
-        },
-        "title": {
-            "TITLE": "Frigian Packages",
-            "SUBTITLE_1": "Choose the best package for your company",
-            "SUBTITLE_2": "The first month of your yearly payment selection is from us"
-        },
-        "items": {
-            "BEST_PRICE": "Best Value",
-            "features": {
-                "SALES": "Sales",
-                "OPERATION": "Operation",
-                "DOCUMENTATION": "Documentation",
-                "QUALITY_CONTROL": "Quality Control",
-                "ARCHIVE": "Archive",
-                "ACCOUNTING": "Accounting",
-                "INVOICE": "e-Invoice",
-                "CONSOLE": "Console"
-            },
-            "startup": {
-                "TITLE": "Startup",
-                "SUBTITLE": "User/Month",
-                "BUTTON": "Register Now",
-                "FOOTER_ROW_1": "User Package Monthly",
-                "FOOTER_ROW_2": "Storage",
-                "FOOTER_ROW_3": "Route in Marketplace"
-            },
-            "business": {
-                "TITLE": "Business",
-                "SUBTITLE": "User/Month",
-                "BUTTON": "Register Now",
-                "FOOTER_ROW_1": "Max User",
-                "FOOTER_ROW_2": "Storage",
-                "FOOTER_ROW_3": "Routes in Marketplace"
-            },
-            "premium": {
-                "TITLE": "Premium",
-                "SUBTITLE": "Negotiable Price",
-                "BUTTON": "Call Now",
-                "FOOTER_ROW_1": "Max User",
-                "FOOTER_ROW_2": "Storage",
-                "FOOTER_ROW_3": "Routes in Marketplace"
-            }
-        }
-    },
-    "register": {
-        "banner": {
-            "TITLE": "Registration"
-        },
-        "companyForm": {
-            "COUNTRY": "Country",
-            "TAX_NO": "Tax Number",
-            "COMPANY_NAME": "Company Name",
-            "PHONE": "Phone",
-            "WEBSITE": "Website Address",
-            "ADDRESS": "Address"
-        },
-        "pricingForm": {
-            "SUBDOMAIN": "Subdomain",
-            "SUBDOMAIN_CHECK": "Check Subdomain",
-            "NUMBER_OF_USERS": "Users",
-            "NAME": "Name",
-            "SURNAME": "Surname",
-            "MOBILE_PHONE": "Mobile",
-            "EMAIL": "eMail",
-            "ADMIN_EMAIL": "Admin eMail",
-            "SENDER_EMAIL": "Sender eMail",
-            "PACKAGE": "Selected Package",
-            "AMOUNT": "Amount",
-            "YEARLY_PAYMENT": "Yearly Payment",
-            "MONTHLY_PAYMENT": "Monthly Payment",
-            "CAMPAIGN_CODE": "Campain Code",
-            "CAMPAIGN_ERROR": "INVALID CODE",
-            "CAMPAIGN_DISCOUNT": "Discount",
-            "CAMPAIGN_TAX_ABBREVIATION": "VAT",
-            "COMPANY_LOGO": "Company Logo",
-            "COMPANY_LOGO_UPLOAD": "Crop",
-            "COMPANY_LOGO_CLOSE": "Close",
-            "COMPANY_LOGO_CONFIRMATION": "Do you approve your company logo as follows ?",
-            "COMPANY_DOC": "Company Registration Paper",
-            "AGGREMENT_TEXT": "I accept the Frigian License Agreement."
-        },
-        "notification": {
-            "FORM_VALIDATION": "Fields marked with * cannot be left blank",
-            "PERSONAL_EMAIL": "Personal email address must be in the correct format",
-            "ADMIN_EMAIL": "Admin email address must be in the correct format",
-            "SENDER_EMAIL": "Sender email address must be in the correct format",
-            "FORM_VALIDATION_AGGREMENT": "Please confirm the Frigian License Agreement",
-            "FORM_VALIDATION_PACKAGE": "Please choose yearly / monthly payment for the package you have chosen",
-            "FORM_VALIDATION_COMPANY_LOGO": "Please upload your company logo",
-            "LOGO_UPLOAD_SUCCESS_MESSAGE": "Logo successfully uploaded",
-            "LOGO_UPLOAD_ERROR_MESSAGE": "An error occured when uploading logo. Please try again",
-            "LOGO_UPLOAD_FILE_SIZE_ERROR": "File size for logo is max. it should be 1MB",
-            "DOCUMENT_UPLOAD_SUCCESS_MESSAGE": "Document successfully uploaded",
-            "DOCUMENT_UPLOAD_ERROR_MESSAGE": "An error occured when uploading document. Please try again",
-            "DOCUMENT_UPLOAD_FILE_SIZE_ERROR": "The file size for the document is max. it should be 5MB",
-            "DEFINE_SUBDOMAIN": "First you must enter the domain name",
-            "REGISTRATION_SUCCESS": "Registration successfully completed",
-            "REGISTRATION_ERROR": "An error occurred when registration. Please try again"
-        }
-    },
-    "faq": {
-        "banner": {
-            "FAQ_BANNER_TITLE": "Frequently Asked Questions"
-        },
-        "items": [
-            {
-                "FAQ_ITEMS_TITLE": "What is Frigian ?",
-                "FAQ_ITEMS_CONTENT": "For logistics companies in SME scale, “Transportation Management System” and integrated Freight Market application."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "Who can get it ?",
-                "FAQ_ITEMS_CONTENT": "All companies that provide freight forwarding services in sea, air and road transport can take."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "Does it include pre accounting module ?",
-                "FAQ_ITEMS_CONTENT": "Yes, There are all the tools that you can follow up on pre-Accounting applications. For example, Current Deposit, Check, E-Invoice, Cost Center, Collections, Banks.There are no tools like Payroll, Declaration."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "Can i upload my old data ?",
-                "FAQ_ITEMS_CONTENT": "Yes, if you have CSV, Excel or SQL, we can upload it for you once. This may be data such as Company cards, Product cards, for your Purchase / Sales invoices."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "Will my data be lost ?",
-                "FAQ_ITEMS_CONTENT": "No, your data is backed up on a daily basis in different areas and protected media as documents, data and images. Last day data is not guaranteed at the time of disaster."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "Is my data visible to others ?",
-                "FAQ_ITEMS_CONTENT": "No, no one can access your data except the personnel you authorize."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "Can I access my data from anywhere ?",
-                "FAQ_ITEMS_CONTENT": "Yes, unless you have an IP and / or IMEI restriction, you can access your data wherever the internet exists."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "Can I bid with the mobile application ?",
-                "FAQ_ITEMS_CONTENT": "Yes, with the mobile application you can bid and receive notification for the approved bid."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "Is there personnel authorization ?",
-                "FAQ_ITEMS_CONTENT": "Yes, you can give your staff rank and authority. For example, Admin can see everything. The sales department manager can see the generated bids, but the sales person only sees their own offers. The accounting department cannot see the sales activities and the sales department cannot see the accounting activities."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "What kind of reports can i get ?",
-                "FAQ_ITEMS_CONTENT": "You can see Profitability, TEU, Volume and number of files reports on customer and personnel basis within the desired date range."
-            },
-            {
-                "FAQ_ITEMS_TITLE": "Is there price list facility ?",
-                "FAQ_ITEMS_CONTENT": "Yes, you can add the freight and pre-transport prices of FCL / LCL. Your authorized personnel can see these freight rates and send them fast as a quote using these freight rates. You can also load your freight to your system with Excel list in one step."
-            }
-        ]
-    },
-    "blog": {
-        "banner": {
-            "BLOG_BANNER_TITLE": "Our Articles"
-        },
-        "body": {
-            "BLOG_SECTION_ITEMS_AUTHOR_PREFIX": "by",
-            "BLOG_SECTION_DETAILS_OTHER_BLOGS_HEADER": "OTHER ARTICLES"
-        },
-        "error": {
-            "BLOG_SECTION_ERROR_BLOG_NOT_FOUND": "The article was not found. Please check the link and try again",
-            "BLOG_SECTION_WARNING_BLOG_NOT_FOUIND": "No article found for the language you selected."
-        }
-    },
-    "contact": {
-        "banner": {
-            "CONTACT_BANNER_TITLE": "Contact Us"
-        },
-        "form": {
-            "CONTACT_FORM_INPUT_NAME_LABEL": "First Name",
-            "CONTACT_FORM_INPUT_NAME_PLACEHOLDER": "",
-            "CONTACT_FORM_INPUT_SURNAME_LABEL": "Last Name",
-            "CONTACT_FORM_INPUT_SURNAME_PLACEHOLDER": "",
-            "CONTACT_FORM_INPUT_EMAIL_LABEL": "eMail",
-            "CONTACT_FORM_INPUT_EMAIL_PLACEHOLDER": "",
-            "CONTACT_FORM_INPUT_SUBJECT_LABEL": "Subject",
-            "CONTACT_FORM_INPUT_SUBJECT_PLACEHOLDER": "",
-            "CONTACT_FORM_TEXTAREA_MESSAGE_LABEL": "Message",
-            "CONTACT_FORM_TEXTAREA_MESSAGE_PLACEHOLDER": "Write your notes or questions here",
-            "CONTACT_FORM_INPUT_CAPTCHA_PLACEHOLDER": "Enter captcha"
-        },
-        "address": {
-            "CONTACT_ADDRESS_COMPANY_NAME_LABEL": "Company Name",
-            "CONTACT_ADDRESS_COMPANY_NAME_CONTENT": "Frigian Information Technology Services",
-            "CONTACT_ADDRESS_MERSIS_LABEL": "Mersis",
-            "CONTACT_ADDRESS_ADDRESS_LABEL": "Address",
-            "CONTACT_ADDRESS_ADDRESS_CONTENT": "İstanbul Üniversitesi Avcılar TEKNOPARK Üniversite Mahallesi Sarıgül Sokak no: 37/1 ARGE Hizmet Binası Kuluçka Merkezi No: 15/68 Posta Kodu: 34320 Avcılar / İstanbul / TÜRKİYE",
-            "CONTACT_ADDRESS_PHONE_LABEL": "Phone",
-            "CONTACT_ADDRESS_EMAIL_LABEL": "eMail"
-        },
-        "notification": {
-            "CONTACT_NOTIFICATION_SUCCESS_MESSAGE": "Your message has been sent successfully",
-            "CONTACT_NOTIFICATION_ERROR_MESSAGE": "Your message could not be sent. Please try again",
-            "form_validation": {
-                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_NAME": "Name cannot be left blank",
-                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_SURNAME": "Surname cannot be left blank",
-                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL": "eMail cannot be left blank",
-                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL_FORMAT": "eMail must be entered in the correct format",
-                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_SUBJECT": "Subject cannot be left blank",
-                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_MESSAGE": "Message cannot be left blank",
-                "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_CAPTCHA": "Please verify captcha"
-            }
-        }
-    },
-    "footer": {
-        "FOOTER_TEXT": "All rights reserved.",
-        "columns": {
-            "1": {
-                "FOOTER_COLUMN_TITLE": "Quick Links",
-                "FOOTER_COLUMN_LINK_ABOUT": "About Us",
-                "FOOTER_COLUMN_LINK_SERVICES": "Services",
-                "FOOTER_COLUMN_LINK_CONTACT": "Contact"
-            },
-            "2": {
-                "FOOTER_COLUMN_TITLE": "Products"
-            },
-            "3": {
-                "FOOTER_COLUMN_TITLE": "Legal",
-                "FOOTER_COLUMN_LINK_AGREEMENT": "Agreement",
-                "FOOTER_COLUMN_LINK_PRIVACY": "Privacy Policy",
-                "FOOTER_COLUMN_LINK_COOKIES": "Cookies"
-            },
-            "4": {
-                "FOOTER_COLUMN_TITLE": "Payment Methods"
-            }
-        }
-    },
-    "privacy": {
-        "PRIVACY_HEADER": "Your Privacy",
-        "PRIVACY_TEXT": "Clicking on the \"Accept Cookies\" button will help Frigian Information Technology Services remember the language selection on your device.",
-        "PRIVACY_BUTTON": "Accept Cookies"
+    "info": {
+      "WAIT_RESPONSE": "Waiting for response from server ..."
     }
+  },
+  "buttons": {
+    "NEXT": "Next",
+    "PREVIOUS": "Previous",
+    "SAVE": "Save",
+    "CHECK_PACKAGES": "Check Packages",
+    "SEND_REQUEST": "Send Request",
+    "SEND_MESSAGE": "Send Message",
+    "READ_MORE": "Read More . . ."
+  },
+  "navbar": {
+    "NAVBAR_ITEM_HOME": "Home",
+    "NAVBAR_ITEM_ABOUT": "About Us",
+    "NAVBAR_ITEM_SERVICES": "Services",
+    "NAVBAR_ITEM_PRICING": "Pricing",
+    "NAVBAR_ITEM_FAQ": "Faq",
+    "NAVBAR_ITEM_CONTACT": "Contact",
+    "NAVBAR_ITEM_BLOG": "Blog",
+    "NAVBAR_ITEM_MEETING_ROOM": "Meeting Room",
+    "language": {
+      "NAVBAR_ITEM_LANGUAGE_TR": "TURKISH",
+      "NAVBAR_ITEM_LANGUAGE_EN": "ENGLISH"
+    }
+  },
+  "home": {
+    "banner": {
+      "BANNER_HEADER": "Logistics Digital Platform",
+      "BANNER_CONTENT": "New Generation Logistics Management System Integrated Freights Market"
+    },
+    "widgets": {
+      "left": {
+        "WIDGET_LEFT_TITLE": "Best Price",
+        "WIDGET_LEFT_CONTENT": "Pay less by choosing the right package to manage your operations. You will not need to pay a setup fee."
+      },
+      "center": {
+        "WIDGET_CENTER_TITLE": "Let Us Call You",
+        "form": {
+          "WIDGET_CENTER_FORM_NAME": "Name Surname",
+          "WIDGET_CENTER_FORM_PHONE": "Phone",
+          "WIDGET_CENTER_FORM_EMAIL": "eMail"
+        }
+      },
+      "right": {
+        "WIDGET_RIGHT_TITLE": "7 / 24 Support",
+        "WIDGET_RIGHT_CONTENT": "You can send your request email at any time of the day and support staff will respond as soon as possible. Also sending feedback is available."
+      },
+      "notification": {
+        "HOME_WIDGETS_NOTIFICATION_SUCCESS_MESSAGE": "Your message has been sent successfully",
+        "HOME_WIDGETS_NOTIFICATION_ERROR_MESSAGE": "Your message could not be sent. Please try again",
+        "form_validation": {
+          "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_NAME": "Name cannot be left blank",
+          "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL": "eMail cannot be left blank",
+          "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL_FORMAT": "eMail must be entered in the correct format",
+          "HOME_WIDGETS_NOTIFICATION_FORM_VALIDATION_ERROR_PHONE": "Phone cannot be left blank"
+        }
+      }
+    },
+    "why": {
+      "WHY_SECTION_TITLE": "Why Frigian ?",
+      "WHY_SECTION_SUBTITLE": "By Frigian you will take the following advantages",
+      "items": {
+        "1": {
+          "WHY_ITEMS_TITLE": "Speed up Operations",
+          "WHY_ITEMS_CONTENT": "Fast offer from uploaded price lists and easy and quick sending of messages and attachments to audiences"
+        },
+        "2": {
+          "WHY_ITEMS_TITLE": "Avoid Mistakes",
+          "WHY_ITEMS_CONTENT": "Alert and prevent the sending of incorrect or incomplete information as well as to the wrong persons"
+        },
+        "3": {
+          "WHY_ITEMS_TITLE": "Integrity",
+          "WHY_ITEMS_CONTENT": "Integrated and automated managed data exchange with global transport systems for sending and updating cargos"
+        },
+        "4": {
+          "WHY_ITEMS_TITLE": "Paperless",
+          "WHY_ITEMS_CONTENT": "Save and keep documents and attachments of each file separately and access to all of them during shipping operations"
+        },
+        "5": {
+          "WHY_ITEMS_TITLE": "Total Solution",
+          "WHY_ITEMS_CONTENT": "Perform all transportation operations from sales to operations and documentation to accounting and archiving"
+        },
+        "6": {
+          "WHY_ITEMS_TITLE": "Online Booking/Tracking",
+          "WHY_ITEMS_CONTENT": "Get booking based on uploaded prices and follow up by QrCode both on frigian.com and on the company's own website"
+        },
+        "7": {
+          "WHY_ITEMS_TITLE": "Cloud Archive",
+          "WHY_ITEMS_CONTENT": "Store and maintain relevant information and attachments in the Frigian archive storage for a period of 10 years"
+        },
+        "8": {
+          "WHY_ITEMS_TITLE": "Easy Training",
+          "WHY_ITEMS_CONTENT": "Quick and easy tutorial on how to manage shipping files with paddock files and videos on the Frygian Channel on YouTube"
+        },
+        "9": {
+          "WHY_ITEMS_TITLE": "7/24 Support",
+          "WHY_ITEMS_CONTENT": "Receive support requests throughout the day from the support team and troubleshoot any problems as soon as possible"
+        }
+      }
+    },
+    "video": {
+      "VIDEO_TEXT": "Discover frigian features by watching this short video"
+    }
+  },
+  "about": {
+    "banner": {
+      "ABOUT_BANNER_TITLE": "About Frigian"
+    },
+    "history": {
+      "HISTORY_TITLE": "Our History",
+      "HISTORY_PARAGRAPH_1": "The foundations of the Frigian project began in 2015 with the decision to code a pre-accounting application to meet the needs of the Freight Forwarding industry. The marketplace application was created to close the gap in online pricing in 2017. However, in order for the marketplace application to work actively, the lack of an integrated Transportation Management System was noticed and Frigian evolved into what it is today. It had now turned into a 100% integrated platform with a freight market. Real-time testing began in September 2018. In December 2018, the decision of incorporation was taken and Frigian Information Technology Services was established. Platform tests started in January 2019 with three Freight Forwarder companies. Frigian project has approved by the Istanbul Technopark  as \"Technopark Project\" in July 2019. Then we moved to the office in Teknopark. In 2020, we started to accept customers commercially. As of 2021, we have reached 270 active users with 30 customer companies. As a TMS that includes import-export, complete, partial, and consolidation in Land, Air, Sea, and Train transportation modes. We have come to serve the entire freight forwarding industry. Our past experiences have helped us a lot in the search for digitalization that started with Covid, and at this point, pricing algorithms that have become more dynamic show that more digitalization is inevitable. As of 2021, we have pulled our Freight Market application to the beta level. When Frigian reaches 68 Freight Forwarder companies in each country, the Freight Marketplace will become active and these companies will be more advantageous. We calculated that we can manage 17 geographical regions around the world with 68 Freight Forwarder companies for an active freight management system. Of course, these companies that join Frigian early will have priority, but it will not be possible to keep this advantage forever. Competitive and up-to-date for a dynamic freight management system will be key to staying on this list.",
+      "HISTORY_PARAGRAPH_2": "Each freight forwarder member can view online pricing, online booking, and real-time freight tracking extensions on their sites with a 10-minute process. The Frigian team is designed and developed by a team of experts in logistics and information technologies. Our services are added to the system after passing real tests, and our platform continues to evolve with feedback and requests from each service provider.",
+      "HISTORY_SIGNATURE": "Team Frigian"
+    },
+    "how_to_join": {
+      "HOW_TO_JOIN_TITLE": "How To Join",
+      "items": {
+        "1": {
+          "HOW_TO_JOIN_ITEM_ID": "1",
+          "HOW_TO_JOIN_ITEM_TITLE": "Choose Your Package",
+          "HOW_TO_JOIN_ITEM_CONTENT": "Depending on the number of employees in your company that will work with the Freigian platform, select your package and click on Register."
+        },
+        "2": {
+          "HOW_TO_JOIN_ITEM_ID": "2",
+          "HOW_TO_JOIN_ITEM_TITLE": "Fill Your Company Information",
+          "HOW_TO_JOIN_ITEM_CONTENT": "Enter your company information correctly."
+        },
+        "3": {
+          "HOW_TO_JOIN_ITEM_ID": "3",
+          "HOW_TO_JOIN_ITEM_TITLE": "Do Your Payment",
+          "HOW_TO_JOIN_ITEM_CONTENT": "Finish your membership process by making the payment. You can save %10 by yearly payment. Frigian guarantees that your account will be refunded if you opt out for one month from the date of membership."
+        }
+      }
+    },
+    "team": {
+      "TEAM_TITLE": "Who We Are",
+      "items": {
+        "1": {
+          "TEAM_ITEMS_RANK": "Co-Founder, Ceo",
+          "TEAM_ITEMS_DESCRIPTION": "Logistics coordinator and freight-forwarder team manager with more than 22 years experience in international logistics. Industry 4.0 and integration in logistics are high priority subjects for Seyfi."
+        },
+        "2": {
+          "TEAM_ITEMS_RANK": "Co-Founder, Cto",
+          "TEAM_ITEMS_DESCRIPTION": "Software designer and developer and team manager with more than 25 years experience in IT. Best data modeling, performance tuning and integration are high priority subjects for Turaj."
+        }
+      }
+    }
+  },
+  "services": {
+    "banner": {
+      "SERVICES_BANNER_TITLE": "Our Services"
+    },
+    "titles": {
+      "SERVICES_COLUMNS_LEFT_TITLE": "Cloud Modules",
+      "SERVICES_COLUMNS_RIGHT_TITLE": "Cloud Services"
+    },
+    "columns": {
+      "left": [
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Dashboard",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "A snapshot from projects and assets"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Cash Assets",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Bank accounts and cash management"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Price List",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Uploading price list for fast offering"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Offer",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Generating fast offer and send to customer"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Inland Carrier",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Managing inland carriers status"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Operation",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Operating logistics activity"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Console",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Managing console project easily"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Accounting",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Controlling accounts activities"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Quality Control",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Check projects before archiving"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Archive",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Archiving finished projects"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Messaging",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "In app and customers email messaging"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Attachment",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Attaching projects related papers"
+        }
+      ],
+      "right": [
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Database",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Saving data in replicated and separated area"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Storage",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Keeping documents in separated storage"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Daily Backup",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Keeping daily backups of data and files"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Archiving",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Keeping data and files for 10 years"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Download",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Downloading projects and activities periodically"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Online Resize",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Growing required storage any time"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Changing Package",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Up or downgrading package any time"
+        },
+        {
+          "SERVICES_COLUMNS_ITEMS_TITLE": "Pay as you go",
+          "SERVICES_COLUMNS_ITEMS_CONTENT": "Paying just for what you use"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "banner": {
+      "TITLE": "Pricing"
+    },
+    "title": {
+      "TITLE": "Frigian Packages",
+      "SUBTITLE_1": "Choose the best package for your company",
+      "SUBTITLE_2": "The first month of your yearly payment selection is from us"
+    },
+    "items": {
+      "BEST_PRICE": "Best Value",
+      "features": {
+        "SALES": "Sales",
+        "OPERATION": "Operation",
+        "DOCUMENTATION": "Documentation",
+        "QUALITY_CONTROL": "Quality Control",
+        "ARCHIVE": "Archive",
+        "ACCOUNTING": "Accounting",
+        "INVOICE": "e-Invoice",
+        "CONSOLE": "Console"
+      },
+      "startup": {
+        "TITLE": "Startup",
+        "SUBTITLE": "User/Month",
+        "BUTTON": "Register Now",
+        "FOOTER_ROW_1": "User Package Monthly",
+        "FOOTER_ROW_2": "Storage",
+        "FOOTER_ROW_3": "Route in Marketplace"
+      },
+      "business": {
+        "TITLE": "Business",
+        "SUBTITLE": "User/Month",
+        "BUTTON": "Register Now",
+        "FOOTER_ROW_1": "Max User",
+        "FOOTER_ROW_2": "Storage",
+        "FOOTER_ROW_3": "Routes in Marketplace"
+      },
+      "premium": {
+        "TITLE": "Premium",
+        "SUBTITLE": "Negotiable Price",
+        "BUTTON": "Call Now",
+        "FOOTER_ROW_1": "Max User",
+        "FOOTER_ROW_2": "Storage",
+        "FOOTER_ROW_3": "Routes in Marketplace"
+      }
+    }
+  },
+  "register": {
+    "banner": {
+      "TITLE": "Registration"
+    },
+    "companyForm": {
+      "COUNTRY": "Country",
+      "TAX_NO": "Tax Number",
+      "COMPANY_NAME": "Company Name",
+      "PHONE": "Phone",
+      "WEBSITE": "Website Address",
+      "ADDRESS": "Address"
+    },
+    "pricingForm": {
+      "SUBDOMAIN": "Subdomain",
+      "SUBDOMAIN_CHECK": "Check Subdomain",
+      "NUMBER_OF_USERS": "Users",
+      "NAME": "Name",
+      "SURNAME": "Surname",
+      "MOBILE_PHONE": "Mobile",
+      "EMAIL": "eMail",
+      "ADMIN_EMAIL": "Admin eMail",
+      "SENDER_EMAIL": "Sender eMail",
+      "PACKAGE": "Selected Package",
+      "AMOUNT": "Amount",
+      "YEARLY_PAYMENT": "Yearly Payment",
+      "MONTHLY_PAYMENT": "Monthly Payment",
+      "CAMPAIGN_CODE": "Campain Code",
+      "CAMPAIGN_ERROR": "INVALID CODE",
+      "CAMPAIGN_DISCOUNT": "Discount",
+      "CAMPAIGN_TAX_ABBREVIATION": "VAT",
+      "COMPANY_LOGO": "Company Logo",
+      "COMPANY_LOGO_UPLOAD": "Crop",
+      "COMPANY_LOGO_CLOSE": "Close",
+      "COMPANY_LOGO_CONFIRMATION": "Do you approve your company logo as follows ?",
+      "COMPANY_DOC": "Company Registration Paper",
+      "AGGREMENT_TEXT": "I accept the Frigian License Agreement."
+    },
+    "notification": {
+      "FORM_VALIDATION": "Fields marked with * cannot be left blank",
+      "PERSONAL_EMAIL": "Personal email address must be in the correct format",
+      "ADMIN_EMAIL": "Admin email address must be in the correct format",
+      "SENDER_EMAIL": "Sender email address must be in the correct format",
+      "FORM_VALIDATION_AGGREMENT": "Please confirm the Frigian License Agreement",
+      "FORM_VALIDATION_PACKAGE": "Please choose yearly / monthly payment for the package you have chosen",
+      "FORM_VALIDATION_COMPANY_LOGO": "Please upload your company logo",
+      "LOGO_UPLOAD_SUCCESS_MESSAGE": "Logo successfully uploaded",
+      "LOGO_UPLOAD_ERROR_MESSAGE": "An error occured when uploading logo. Please try again",
+      "LOGO_UPLOAD_FILE_SIZE_ERROR": "File size for logo is max. it should be 1MB",
+      "DOCUMENT_UPLOAD_SUCCESS_MESSAGE": "Document successfully uploaded",
+      "DOCUMENT_UPLOAD_ERROR_MESSAGE": "An error occured when uploading document. Please try again",
+      "DOCUMENT_UPLOAD_FILE_SIZE_ERROR": "The file size for the document is max. it should be 5MB",
+      "DEFINE_SUBDOMAIN": "First you must enter the domain name",
+      "REGISTRATION_SUCCESS": "Registration successfully completed",
+      "REGISTRATION_ERROR": "An error occurred when registration. Please try again"
+    }
+  },
+  "faq": {
+    "banner": {
+      "FAQ_BANNER_TITLE": "Frequently Asked Questions"
+    },
+    "items": [
+      {
+        "FAQ_ITEMS_TITLE": "What is Frigian ?",
+        "FAQ_ITEMS_CONTENT": "For logistics companies in SME scale, “Transportation Management System” and integrated Freight Market application."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "Who can get it ?",
+        "FAQ_ITEMS_CONTENT": "All companies that provide freight forwarding services in sea, air and road transport can take."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "Does it include pre accounting module ?",
+        "FAQ_ITEMS_CONTENT": "Yes, There are all the tools that you can follow up on pre-Accounting applications. For example, Current Deposit, Check, E-Invoice, Cost Center, Collections, Banks.There are no tools like Payroll, Declaration."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "Can i upload my old data ?",
+        "FAQ_ITEMS_CONTENT": "Yes, if you have CSV, Excel or SQL, we can upload it for you once. This may be data such as Company cards, Product cards, for your Purchase / Sales invoices."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "Will my data be lost ?",
+        "FAQ_ITEMS_CONTENT": "No, your data is backed up on a daily basis in different areas and protected media as documents, data and images. Last day data is not guaranteed at the time of disaster."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "Is my data visible to others ?",
+        "FAQ_ITEMS_CONTENT": "No, no one can access your data except the personnel you authorize."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "Can I access my data from anywhere ?",
+        "FAQ_ITEMS_CONTENT": "Yes, unless you have an IP and / or IMEI restriction, you can access your data wherever the internet exists."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "Can I bid with the mobile application ?",
+        "FAQ_ITEMS_CONTENT": "Yes, with the mobile application you can bid and receive notification for the approved bid."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "Is there personnel authorization ?",
+        "FAQ_ITEMS_CONTENT": "Yes, you can give your staff rank and authority. For example, Admin can see everything. The sales department manager can see the generated bids, but the sales person only sees their own offers. The accounting department cannot see the sales activities and the sales department cannot see the accounting activities."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "What kind of reports can i get ?",
+        "FAQ_ITEMS_CONTENT": "You can see Profitability, TEU, Volume and number of files reports on customer and personnel basis within the desired date range."
+      },
+      {
+        "FAQ_ITEMS_TITLE": "Is there price list facility ?",
+        "FAQ_ITEMS_CONTENT": "Yes, you can add the freight and pre-transport prices of FCL / LCL. Your authorized personnel can see these freight rates and send them fast as a quote using these freight rates. You can also load your freight to your system with Excel list in one step."
+      }
+    ]
+  },
+  "blog": {
+    "banner": {
+      "BLOG_BANNER_TITLE": "Our Articles"
+    },
+    "body": {
+      "BLOG_SECTION_ITEMS_AUTHOR_PREFIX": "by",
+      "BLOG_SECTION_DETAILS_OTHER_BLOGS_HEADER": "OTHER ARTICLES"
+    },
+    "error": {
+      "BLOG_SECTION_ERROR_BLOG_NOT_FOUND": "The article was not found. Please check the link and try again",
+      "BLOG_SECTION_WARNING_BLOG_NOT_FOUIND": "No article found for the language you selected."
+    }
+  },
+  "contact": {
+    "banner": {
+      "CONTACT_BANNER_TITLE": "Contact Us"
+    },
+    "form": {
+      "CONTACT_FORM_INPUT_NAME_LABEL": "First Name",
+      "CONTACT_FORM_INPUT_NAME_PLACEHOLDER": "",
+      "CONTACT_FORM_INPUT_SURNAME_LABEL": "Last Name",
+      "CONTACT_FORM_INPUT_SURNAME_PLACEHOLDER": "",
+      "CONTACT_FORM_INPUT_EMAIL_LABEL": "eMail",
+      "CONTACT_FORM_INPUT_EMAIL_PLACEHOLDER": "",
+      "CONTACT_FORM_INPUT_SUBJECT_LABEL": "Subject",
+      "CONTACT_FORM_INPUT_SUBJECT_PLACEHOLDER": "",
+      "CONTACT_FORM_TEXTAREA_MESSAGE_LABEL": "Message",
+      "CONTACT_FORM_TEXTAREA_MESSAGE_PLACEHOLDER": "Write your notes or questions here",
+      "CONTACT_FORM_INPUT_CAPTCHA_PLACEHOLDER": "Enter captcha"
+    },
+    "address": {
+      "CONTACT_ADDRESS_COMPANY_NAME_LABEL": "Company Name",
+      "CONTACT_ADDRESS_COMPANY_NAME_CONTENT": "Frigian Information Technology Services",
+      "CONTACT_ADDRESS_MERSIS_LABEL": "Mersis",
+      "CONTACT_ADDRESS_ADDRESS_LABEL": "Address",
+      "CONTACT_ADDRESS_ADDRESS_CONTENT": "İstanbul Üniversitesi Avcılar TEKNOPARK Üniversite Mahallesi Sarıgül Sokak no: 37/1 ARGE Hizmet Binası Kuluçka Merkezi No: 15/68 Posta Kodu: 34320 Avcılar / İstanbul / TÜRKİYE",
+      "CONTACT_ADDRESS_PHONE_LABEL": "Phone",
+      "CONTACT_ADDRESS_EMAIL_LABEL": "eMail"
+    },
+    "notification": {
+      "CONTACT_NOTIFICATION_SUCCESS_MESSAGE": "Your message has been sent successfully",
+      "CONTACT_NOTIFICATION_ERROR_MESSAGE": "Your message could not be sent. Please try again",
+      "form_validation": {
+        "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_NAME": "Name cannot be left blank",
+        "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_SURNAME": "Surname cannot be left blank",
+        "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL": "eMail cannot be left blank",
+        "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_EMAIL_FORMAT": "eMail must be entered in the correct format",
+        "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_SUBJECT": "Subject cannot be left blank",
+        "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_MESSAGE": "Message cannot be left blank",
+        "CONTACT_NOTIFICATION_FORM_VALIDATION_ERROR_CAPTCHA": "Please verify captcha"
+      }
+    }
+  },
+  "footer": {
+    "FOOTER_TEXT": "All rights reserved.",
+    "columns": {
+      "1": {
+        "FOOTER_COLUMN_TITLE": "Quick Links",
+        "FOOTER_COLUMN_LINK_ABOUT": "About Us",
+        "FOOTER_COLUMN_LINK_SERVICES": "Services",
+        "FOOTER_COLUMN_LINK_CONTACT": "Contact",
+        "FOOTER_COLUMN_LINK_VIDEO": "Our Presentation Video"
+      },
+      "2": {
+        "FOOTER_COLUMN_TITLE": "Products"
+      },
+      "3": {
+        "FOOTER_COLUMN_TITLE": "Legal",
+        "FOOTER_COLUMN_LINK_AGREEMENT": "Agreement",
+        "FOOTER_COLUMN_LINK_PRIVACY": "Privacy Policy",
+        "FOOTER_COLUMN_LINK_COOKIES": "Cookies"
+      },
+      "4": {
+        "FOOTER_COLUMN_TITLE": "Payment Methods"
+      }
+    }
+  },
+  "privacy": {
+    "PRIVACY_HEADER": "Your Privacy",
+    "PRIVACY_TEXT": "Clicking on the \"Accept Cookies\" button will help Frigian Information Technology Services remember the language selection on your device.",
+    "PRIVACY_BUTTON": "Accept Cookies"
+  }
 }
