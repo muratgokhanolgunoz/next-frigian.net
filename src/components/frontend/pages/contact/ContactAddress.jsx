@@ -10,10 +10,10 @@ const ContactAddress = () => {
             <div className={style.contactAddressRow}>
                 <iframe
                     title="Frigian"
-                    src="https://www.google.com/maps/embed/v1/place?q=frigian.com+%7C+Navlun+arama+motoru&amp;key=AIzaSyCNT-Ezna_0Tut3qJFC9ODjXePQEo5pUDQ"
+                    // src="https://www.google.com/maps/embed/v1/place?q=frigian.com+%7C+Navlun+arama+motoru&amp;key=AIzaSyCNT-Ezna_0Tut3qJFC9ODjXePQEo5pUDQ"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1265.7816653171944!2d28.64428038162115!3d41.013153240917774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55f0a2cadab99%3A0x18f2a233e0569753!2sEkinoks!5e0!3m2!1sen!2str!4v1641676838958!5m2!1sen!2str"
                     allowFullScreen=""
-                    loading="lazy"
-                ></iframe>
+                    loading="lazy"></iframe>
             </div>
 
             <div className={style.contactAddressRow}>
