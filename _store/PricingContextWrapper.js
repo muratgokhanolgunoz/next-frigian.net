@@ -14,8 +14,7 @@ class PricingContextWrapper extends Component {
         packageYearlyPrice: "",
         packageMonthlyPrice: "",
         registrationYearMonth: "",
-        countryId: "",
-        countryName: "",
+        country: { value: null, label: null },
         taxNo: "",
         companyName: "",
         phone: "",
@@ -71,8 +70,7 @@ class PricingContextWrapper extends Component {
                                 packageYearlyPrice: "",
                                 packageMonthlyPrice: "",
                                 registrationYearMonth: "",
-                                countryId: "",
-                                countryName: "",
+                                country: { value: null, label: null },
                                 taxNo: "",
                                 companyName: "",
                                 phone: "",
@@ -141,14 +139,9 @@ class PricingContextWrapper extends Component {
                                 registrationYearMonth: _value,
                             });
                         },
-                        setCountryId: (_value) => {
+                        setCountry: (_value) => {
                             this.setState({
-                                countryId: _value,
-                            });
-                        },
-                        setCountryName: (_value) => {
-                            this.setState({
-                                countryName: _value,
+                                country: _value,
                             });
                         },
                         setTaxNo: (_value) => {
@@ -314,8 +307,7 @@ class PricingContextWrapper extends Component {
                         //         packageMonthlyPrice: Number((total).toFixed(2))
                         //     })
                         // }
-                    }}
-                >
+                    }}>
                     {this.props.children}
                 </PricingContext.Provider>
             </div>

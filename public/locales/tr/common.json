@@ -112,8 +112,8 @@
                 }
             }
         },
-        "video": {            
-            "VIDEO_TEXT": "Frigian özelliklerine göz atmak için videomuzu izleyin"            
+        "video": {
+            "VIDEO_TEXT": "Frigian özelliklerine göz atmak için videomuzu izleyin"
         }
     },
     "about": {
@@ -306,8 +306,10 @@
         "banner": {
             "TITLE": "Üyelik"
         },
+        "description": "Lütfen ( * ) ile belirtilen alanları eksiksiz doldurun",
         "companyForm": {
             "COUNTRY": "Ülke",
+            "COUNTRY_PLACEHOLDER": "Ülke Arayın ...",
             "TAX_NO": "Vergi Numarası",
             "COMPANY_NAME": "Firma Adı",
             "PHONE": "Telefon",

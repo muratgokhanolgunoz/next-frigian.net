@@ -306,8 +306,10 @@
     "banner": {
       "TITLE": "Registration"
     },
+    "description": "Please fill in the fields specified by ( * )",
     "companyForm": {
       "COUNTRY": "Country",
+      "COUNTRY_PLACEHOLDER": "Search Country ...",
       "TAX_NO": "Tax Number",
       "COMPANY_NAME": "Company Name",
       "PHONE": "Phone",

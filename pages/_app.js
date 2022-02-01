@@ -6,18 +6,21 @@ import { ToastContainer } from "react-toastify";
 import "../styles/globals.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-toastify/dist/ReactToastify.css";
+import { SSRProvider } from "react-bootstrap";
 
 const MyApp = ({ Component, pageProps }) => {
     return (
         <>
-            <AuthContextWrapper>
-                <GlobalContextWrapper>
-                    <PricingContextWrapper>
-                        <Component {...pageProps} />
-                        <ToastContainer />
-                    </PricingContextWrapper>
-                </GlobalContextWrapper>
-            </AuthContextWrapper>
+            <SSRProvider>
+                <AuthContextWrapper>
+                    <GlobalContextWrapper>
+                        <PricingContextWrapper>
+                            <Component {...pageProps} />
+                            <ToastContainer />
+                        </PricingContextWrapper>
+                    </GlobalContextWrapper>
+                </AuthContextWrapper>
+            </SSRProvider>
         </>
     );
 };

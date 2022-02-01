@@ -83,9 +83,10 @@ const PricingForm = () => {
                         pricingContext.setSubDomain("");
                     }
                 })
-                .catch(() =>
-                    console.warn("Error : Error occurred in subdomain control")
-                );
+                .catch(() => {
+                    showToast("bottom-right", error, "error");
+                    console.warn("Error : Error occurred in subdomain control");
+                });
         } else if (_value.length < 3) {
             pricingContext.setSubdomainStatus(false);
             pricingContext.setSubDomain("");
@@ -129,7 +130,7 @@ const PricingForm = () => {
 
     const clearCompanyDocumentRef = () => {
         fileCompanyDocumentRef.current.value = "";
-    }
+    };
 
     // const resizeCompanyPhoto = (_file, _type, _function) => {
     //     // 1 => blob
@@ -379,7 +380,10 @@ const PricingForm = () => {
                 "reg_company_logo",
                 pricingContext.state.companyLogo
             );
-            payload.append("reg_country_id", pricingContext.state.countryId);
+            payload.append(
+                "reg_country_id",
+                pricingContext.state.country.value
+            );
             payload.append("reg_email", pricingContext.state.personalEmail);
             payload.append("reg_firm_name", pricingContext.state.companyName);
             payload.append("reg_mobile", pricingContext.state.mobile);
@@ -405,18 +409,18 @@ const PricingForm = () => {
                 .then((response) =>
                     response.status === 200
                         ? (showToast(
-                            "bottom-right",
-                            t("register.notification.REGISTRATION_SUCCESS"),
-                            "success"
-                        ),
-                            setTimeout(() => {
-                                window.location.reload();
-                            }, 3000))
+                              "bottom-right",
+                              t("register.notification.REGISTRATION_SUCCESS"),
+                              "success"
+                          ),
+                          setTimeout(() => {
+                              window.location.reload();
+                          }, 3000))
                         : showToast(
-                            "bottom-right",
-                            t("register.notification.REGISTRATION_ERROR"),
-                            "error"
-                        )
+                              "bottom-right",
+                              t("register.notification.REGISTRATION_ERROR"),
+                              "error"
+                          )
                 )
                 .catch(() =>
                     showToast(
@@ -451,8 +455,7 @@ const PricingForm = () => {
                                         }
                                         onChange={(e) =>
                                             handleSubdomain(e.target.value)
-                                        }
-                                    ></input>
+                                        }></input>
                                 </div>
                             </Col>
                             <Col md={6}>
@@ -476,8 +479,7 @@ const PricingForm = () => {
                                             pricingContext.state.subdomainTemp +
                                             ".frigian.net"
                                         }
-                                        readOnly
-                                    ></input>
+                                        readOnly></input>
                                     <span
                                         id="pricing-input-subdomain-span"
                                         style={
@@ -485,8 +487,7 @@ const PricingForm = () => {
                                                 .subdomainStatus === true
                                                 ? subdomainInputStylesTrue
                                                 : subdomainInputStylesFalse
-                                        }
-                                    >
+                                        }>
                                         {pricingContext.state
                                             .subdomainStatus === true ? (
                                             <FaCheck />
@@ -511,8 +512,7 @@ const PricingForm = () => {
                                             pricingContext.setName(
                                                 e.target.value
                                             )
-                                        }
-                                    ></input>
+                                        }></input>
                                 </div>
                             </Col>
                             <Col lg={6} md={12}>
@@ -528,8 +528,7 @@ const PricingForm = () => {
                                             pricingContext.setSurname(
                                                 e.target.value
                                             )
-                                        }
-                                    ></input>
+                                        }></input>
                                 </div>
                             </Col>
                         </Row>
@@ -548,8 +547,7 @@ const PricingForm = () => {
                                             pricingContext.setMobile(
                                                 e.target.value
                                             )
-                                        }
-                                    ></input>
+                                        }></input>
                                 </div>
                             </Col>
                             <Col lg={6} md={12}>
@@ -567,8 +565,7 @@ const PricingForm = () => {
                                             pricingContext.setPersonalEmail(
                                                 e.target.value
                                             )
-                                        }
-                                    ></input>
+                                        }></input>
                                 </div>
                             </Col>
                         </Row>
@@ -588,8 +585,7 @@ const PricingForm = () => {
                                             pricingContext.setAdminEmail(
                                                 e.target.value
                                             )
-                                        }
-                                    ></input>
+                                        }></input>
                                 </div>
                             </Col>
 
@@ -607,8 +603,7 @@ const PricingForm = () => {
                                             pricingContext.setSenderEmail(
                                                 e.target.value
                                             )
-                                        }
-                                    ></input>
+                                        }></input>
                                 </div>
                             </Col>
                         </Row>
@@ -629,8 +624,7 @@ const PricingForm = () => {
                                             ref={fileCompanyLogoRef}
                                             onChange={(e) =>
                                                 imageOnChange(e.target.files[0])
-                                            }
-                                        ></input>
+                                            }></input>
                                     </div>
                                 </form>
                             </Col>
@@ -701,8 +695,6 @@ const PricingForm = () => {
                                 </Col>
                             ) : null}
                         </Row>
-                        {console.log("https://demo.frigian.net" +
-                            pricingContext.state.companyLogo)}
                         <Row>
                             <Col md={12}>
                                 <form>
@@ -721,8 +713,7 @@ const PricingForm = () => {
                                                 documentOnChange(
                                                     e.target.files[0]
                                                 )
-                                            }
-                                        ></input>
+                                            }></input>
                                     </div>
                                 </form>
                             </Col>

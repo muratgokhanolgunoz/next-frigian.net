@@ -9,8 +9,12 @@ class RegisterService {
         return axios.get(process.env.NEXT_PUBLIC_API_URL + "logRegView/1");
     }
 
-    getCountryInfo() {
-        return axios.get(process.env.NEXT_PUBLIC_API_URL + "getCurrInfo");
+    async getCountryInfo() {
+        return await axios.get(process.env.NEXT_PUBLIC_API_URL + "getCurrInfo");
+    }
+
+    async getAllCountries() {
+        return await axios.get(process.env.NEXT_PUBLIC_API_URL_2 + "countries");
     }
 
     checkSubDomain(_value) {
