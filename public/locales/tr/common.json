@@ -306,6 +306,12 @@
         "banner": {
             "TITLE": "Üyelik"
         },
+        "wizard": {
+            "WIZARD_STEP_1": "1. Adım",
+            "WIZARD_STEP_1_LABEL": "Firma Bilgileri",
+            "WIZARD_STEP_2": "2. Adım",
+            "WIZARD_STEP_2_LABEL": "Ödeme Bilgileri"
+        },
         "description": "Lütfen ( * ) ile belirtilen alanları eksiksiz doldurun",
         "companyForm": {
             "COUNTRY": "Ülke",
@@ -433,7 +439,7 @@
             "CONTACT_ADDRESS_COMPANY_NAME_CONTENT": "Frigian Bilişim Ve Teknoloji Hizmetleri A.Ş.",
             "CONTACT_ADDRESS_MERSIS_LABEL": "Mersis",
             "CONTACT_ADDRESS_ADDRESS_LABEL": "Adres",
-            "CONTACT_ADDRESS_ADDRESS_CONTENT": "İstanbul Üniversitesi Avcılar TEKNOPARK Üniversite Mahallesi Sarıgül Sokak no: 37/1 ARGE Hizmet Binası Kuluçka Merkezi No: 15/68 Posta Kodu: 34320 Avcılar / İstanbul / TÜRKİYE",
+            "CONTACT_ADDRESS_ADDRESS_CONTENT": "Büyükşehir 34520, Ekinoks İş Merkezi, E2 Blok, Daire 46, Beylikdüzü/İstanbul",
             "CONTACT_ADDRESS_PHONE_LABEL": "Telefon",
             "CONTACT_ADDRESS_EMAIL_LABEL": "ePosta"
         },

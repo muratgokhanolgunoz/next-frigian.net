@@ -6,7 +6,7 @@ import { useTranslation } from "next-i18next";
 import { Container, Row, Col } from "react-bootstrap";
 import { showToast } from "../../../../../../../_core/functions";
 import ReactSelect from "react-select";
-import { FaBullseye } from "react-icons/fa";
+import WizardHeader from "./WizardHeader";
 
 const CompanyForm = () => {
     const { t } = useTranslation("common");
@@ -115,6 +115,14 @@ const CompanyForm = () => {
     return (
         <div id="company-form">
             <Container className="section-padding">
+                <Row>
+                    <Col
+                        lg={{ offset: 3, span: 6 }}
+                        className="register-form"
+                        style={{ marginBottom: "20px" }}>
+                        <WizardHeader />
+                    </Col>
+                </Row>
                 <Row>
                     <Col lg={{ offset: 3, span: 6 }} className="register-form">
                         <div>

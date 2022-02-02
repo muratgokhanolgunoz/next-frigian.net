@@ -86,8 +86,7 @@ const PopupCompanyLogo = (props) => {
         <div>
             <Modal
                 show={props.companyPopupShow}
-                onHide={() => props.companyPopupHandleClose()}
-            >
+                onHide={() => props.companyPopupHandleClose()}>
                 <Modal.Header style={{ backgroundColor: "#fff" }}>
                     <Modal.Title>
                         {t("register.pricingForm.COMPANY_LOGO_CONFIRMATION")}
@@ -101,22 +100,19 @@ const PopupCompanyLogo = (props) => {
                             display: "block",
                             margin: "auto",
                         }}
-                        fluid
-                    ></Image>
+                        fluid></Image>
                 </Modal.Body>
                 <Modal.Footer style={{ backgroundColor: "#fff" }}>
                     <button
                         className="template-button template-button-dark"
                         style={{ fontSize: "1em" }}
-                        onClick={() => uploadCompanyLogo()}
-                    >
+                        onClick={() => uploadCompanyLogo()}>
                         EVET
                     </button>
                     <button
                         className="template-button template-button-dark"
                         style={{ fontSize: "1em" }}
-                        onClick={() => props.companyPopupHandleClose()}
-                    >
+                        onClick={() => props.companyPopupHandleClose()}>
                         HAYIR
                     </button>
                 </Modal.Footer>

@@ -306,6 +306,12 @@
     "banner": {
       "TITLE": "Registration"
     },
+    "wizard": {
+      "WIZARD_STEP_1": "Step 1",
+      "WIZARD_STEP_1_LABEL": "Company Informations",
+      "WIZARD_STEP_2": "Step 2",
+      "WIZARD_STEP_2_LABEL": "Pricing Informations"
+  },
     "description": "Please fill in the fields specified by ( * )",
     "companyForm": {
       "COUNTRY": "Country",
@@ -446,7 +452,7 @@
       "CONTACT_ADDRESS_COMPANY_NAME_CONTENT": "Frigian Information Technology Services",
       "CONTACT_ADDRESS_MERSIS_LABEL": "Mersis",
       "CONTACT_ADDRESS_ADDRESS_LABEL": "Address",
-      "CONTACT_ADDRESS_ADDRESS_CONTENT": "İstanbul Üniversitesi Avcılar TEKNOPARK Üniversite Mahallesi Sarıgül Sokak no: 37/1 ARGE Hizmet Binası Kuluçka Merkezi No: 15/68 Posta Kodu: 34320 Avcılar / İstanbul / TÜRKİYE",
+      "CONTACT_ADDRESS_ADDRESS_CONTENT": "Büyükşehir 34520, Ekinoks Iş Merkezi, E2 Blok, Daire 46, Beylikdüzü/Istanbul",
       "CONTACT_ADDRESS_PHONE_LABEL": "Phone",
       "CONTACT_ADDRESS_EMAIL_LABEL": "eMail"
     },

@@ -16,6 +16,7 @@ import Cropper from "react-cropper";
 // import Resizer from "react-image-file-resizer";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaCheck, FaTimes } from "react-icons/fa";
+import WizardHeader from "./WizardHeader";
 
 import "cropperjs/dist/cropper.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -439,6 +440,12 @@ const PricingForm = () => {
     return (
         <div id="pricing-form">
             <Container className="section-padding">
+                <Row style={{ marginBottom: "20px" }}>
+                    <Col
+                        className="register-form">
+                        <WizardHeader />
+                    </Col>
+                </Row>
                 <Row className="register-form">
                     <Col lg={6}>
                         <Row>
@@ -723,7 +730,7 @@ const PricingForm = () => {
                         <Billing />
                     </Col>
                 </Row>
-                <Row className="register-form" style={{ marginTop: "20px" }}>
+                <Row className="register-form" style={{ marginTop: "20px" }} >
                     <NavigationButtons
                         handleNavigationButton={navigationButton}
                         handleSave={save}
