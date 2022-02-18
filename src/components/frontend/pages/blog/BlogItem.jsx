@@ -13,6 +13,8 @@ const BlogItem = ({ blog }) => {
     const router = useRouter();
     const { locale } = router;
 
+    console.log(blog);
+
     return (
         <>
             <Col className={style.blogBox} xl={4} md={6}>

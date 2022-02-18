@@ -41,7 +41,7 @@ const Video = ({ video, background, title }) => {
 };
 
 Video.propTypes = {
-  video: PropTypes.number.isRequired,
+  video: PropTypes.string.isRequired,
   background: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
